@@ -1,0 +1,4930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Laiba Rafiq — Information Technology Student &amp; Cybersecurity Enthusiast</title>
+  <meta name="description" content="Portfolio of Laiba Rafiq, Information Technology student and Cybersecurity enthusiast specializing in network security, Python automation, C++, and practical technology solutions in Islamabad, Pakistan.">
+  <meta name="author" content="Laiba Rafiq">
+  <meta name="keywords" content="Laiba Rafiq, Cybersecurity, Information Technology, Network Security, Python, C++, Penetration Testing, Data Analytics, Islamabad, Pakistan">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05091F">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://laibarafiq845-droid.github.io/laiba-portfolio/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://laibarafiq845-droid.github.io/laiba-portfolio/">
+  <meta property="og:title" content="Laiba Rafiq — Information Technology Student &amp; Cybersecurity Enthusiast">
+  <meta property="og:description" content="Portfolio of Laiba Rafiq, Information Technology student and Cybersecurity enthusiast specializing in network defense, Python automation, C++, and practical technology solutions in Islamabad, Pakistan.">
+  <meta property="og:image" content="assets/certificates/cisco-ccna-intro-networks.jpg">
+  <meta property="og:site_name" content="Laiba Rafiq Portfolio">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://laibarafiq845-droid.github.io/laiba-portfolio/">
+  <meta name="twitter:title" content="Laiba Rafiq — Information Technology Student &amp; Cybersecurity Enthusiast">
+  <meta name="twitter:description" content="Portfolio of Laiba Rafiq, Information Technology student and Cybersecurity enthusiast specializing in network defense, Python automation, C++, and practical technology solutions.">
+  <meta name="twitter:image" content="assets/certificates/cisco-ccna-intro-networks.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Master External Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Embedded Master Stylesheet (Zero 404 / Failsafe) -->
+  <style>
+/* ==========================================================================
+   LAIBA RAFIQ PORTFOLIO — MASTER STYLESHEET
+   Phases 1, 2 & 3: Design System, Navigation, Hero & Advanced Mouse Interactions
+   Strict Color System: #05091F, #0B1535, #21164D, #5935A6, #FFFFFF, #AAB4D0
+   Strict dark blue, navy and purple only. Accessible WCAG AAA.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Google Fonts
+   -------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+/* --------------------------------------------------------------------------
+   CSS Custom Properties (Design Tokens)
+   -------------------------------------------------------------------------- */
+:root {
+  /* Strict Palette Tokens */
+  --color-midnight: #05091F;        /* Deep midnight navy: Primary viewport background */
+  --color-dark-blue: #0B1535;       /* Dark blue: Elevated cards, containers, surfaces */
+  --color-deep-purple: #21164D;     /* Deep purple: Accent depth, borders, hover layers */
+  --color-electric-purple: #5935A6; /* Electric purple: Primary accent, glow, CTAs */
+  --color-text-primary: #FFFFFF;    /* Pure white: Primary text & high contrast */
+  --color-text-muted: #AAB4D0;      /* Slate blue-gray: Muted text, metadata, labels */
+
+  /* Translucent & Alpha Layers */
+  --color-midnight-95: rgba(5, 9, 31, 0.95);
+  --color-midnight-80: rgba(5, 9, 31, 0.80);
+  --color-dark-blue-85: rgba(11, 21, 53, 0.85);
+  --color-dark-blue-60: rgba(11, 21, 53, 0.60);
+  --color-deep-purple-40: rgba(33, 22, 77, 0.40);
+  --color-electric-purple-15: rgba(89, 53, 166, 0.15);
+  --color-electric-purple-25: rgba(89, 53, 166, 0.25);
+  --color-electric-purple-50: rgba(89, 53, 166, 0.50);
+
+  /* Approved Subtle Blue-Purple Gradients */
+  --gradient-primary: linear-gradient(135deg, #0B1535 0%, #21164D 60%, #5935A6 100%);
+  --gradient-surface: linear-gradient(180deg, rgba(11, 21, 53, 0.85) 0%, rgba(33, 22, 77, 0.6) 100%);
+  --gradient-glow: radial-gradient(circle, rgba(89, 53, 166, 0.28) 0%, rgba(5, 9, 31, 0) 70%);
+  --gradient-text: linear-gradient(135deg, #FFFFFF 0%, #AAB4D0 45%, #5935A6 100%);
+  --gradient-border: linear-gradient(135deg, rgba(89, 53, 166, 0.6) 0%, rgba(11, 21, 53, 0.2) 100%);
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  /* Fluid Modular Scale */
+  --text-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.8125rem);
+  --text-sm: clamp(0.8125rem, 0.76rem + 0.25vw, 0.875rem);
+  --text-base: clamp(0.9375rem, 0.88rem + 0.3vw, 1.0625rem);
+  --text-lg: clamp(1.125rem, 1rem + 0.5vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.75vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.25rem + 1.2vw, 1.875rem);
+  --text-3xl: clamp(1.875rem, 1.5rem + 1.8vw, 2.375rem);
+  --text-4xl: clamp(2.25rem, 1.8rem + 2.4vw, 3.5rem);
+
+  /* Spacing */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows & Glows */
+  --shadow-sm: 0 2px 8px rgba(5, 9, 31, 0.6);
+  --shadow-md: 0 8px 24px rgba(5, 9, 31, 0.7);
+  --shadow-lg: 0 16px 40px rgba(5, 9, 31, 0.85);
+  --glow-electric: 0 0 24px rgba(89, 53, 166, 0.45);
+  --glow-electric-strong: 0 0 36px rgba(89, 53, 166, 0.75);
+
+  /* Transitions & Professional Easing */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Containers */
+  --container-padding: clamp(16px, 4vw, 36px);
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1240px;
+  --container-2xl: 1440px;
+
+  /* Z-Index */
+  --z-negative: -1;
+  --z-base: 1;
+  --z-elevated: 10;
+  --z-header: 100;
+  --z-cursor: 9999;
+  --z-modal: 10000;
+}
+
+/* --------------------------------------------------------------------------
+   Reset & Base Styles
+   -------------------------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  background-color: var(--color-midnight);
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Subtle Cyber Grid Background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(89, 53, 166, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(89, 53, 166, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: var(--z-negative);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-text-primary);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 { font-size: var(--text-4xl); }
+h2 { font-size: var(--text-3xl); }
+h3 { font-size: var(--text-2xl); }
+h4 { font-size: var(--text-xl); }
+h5 { font-size: var(--text-lg); }
+h6 { font-size: var(--text-base); }
+
+p {
+  margin-bottom: var(--space-md);
+  color: var(--color-text-muted);
+}
+
+a {
+  color: var(--color-electric-purple);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-text-primary);
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* --------------------------------------------------------------------------
+   Layout & Accessibility Foundations
+   -------------------------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--container-xl);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding);
+  padding-right: var(--container-padding);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-electric-purple);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -120px;
+  left: 16px;
+  z-index: 100002;
+  padding: 12px 24px;
+  background: var(--color-dark-blue);
+  color: #FFFFFF;
+  border: 2px solid var(--color-electric-purple);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  box-shadow: var(--shadow-lg), var(--glow-electric);
+  transition: top 200ms ease;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --------------------------------------------------------------------------
+   1. CUSTOM CYBER CURSOR (Desktop Only)
+   -------------------------------------------------------------------------- */
+@media (hover: hover) and (pointer: fine) {
+  body, a, button, input, textarea, select {
+    cursor: none !important;
+  }
+
+  /* Center Glowing Core Dot */
+  .cursor-dot {
+    position: fixed;
+    top: -3px;
+    left: -3px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-text-primary);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10001;
+    box-shadow: 0 0 10px var(--color-electric-purple), 0 0 16px var(--color-electric-purple);
+    transition: opacity 200ms ease, transform 60ms linear;
+    will-change: transform;
+  }
+
+  .cursor-dot.is-hover {
+    background-color: var(--color-electric-purple);
+    transform: scale(1.5);
+  }
+
+  /* Outer Kinetic Following Ring */
+  .cursor-ring {
+    position: fixed;
+    top: -18px;
+    left: -18px;
+    width: 36px;
+    height: 36px;
+    border: 1.5px solid rgba(89, 53, 166, 0.65);
+    background-color: rgba(89, 53, 166, 0.04);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 10000;
+    box-shadow: inset 0 0 8px rgba(89, 53, 166, 0.25);
+    transition: width 200ms ease, height 200ms ease, border-color 200ms ease, background-color 200ms ease, opacity 200ms ease;
+    will-change: transform;
+  }
+
+  /* Hover Expansion */
+  .cursor-ring.is-hover {
+    border-color: var(--color-electric-purple);
+    background-color: rgba(89, 53, 166, 0.16);
+    box-shadow: 0 0 20px rgba(89, 53, 166, 0.55), inset 0 0 12px rgba(89, 53, 166, 0.3);
+  }
+
+  /* Click State */
+  .cursor-ring.is-down {
+    border-color: #FFFFFF;
+    background-color: rgba(89, 53, 166, 0.35);
+  }
+}
+
+/* Clean Fallback: Disable Custom Cursor on Touchscreens and Reduced Motion */
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .cursor-dot, .cursor-ring {
+    display: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. MAGNETIC BUTTONS STYLING
+   -------------------------------------------------------------------------- */
+.btn, .btn-icon, .social-icon-btn, .nav-toggle, [data-magnetic] {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+/* --------------------------------------------------------------------------
+   3. 3D PERSPECTIVE CARD TILT & SURFACE SHEEN
+   -------------------------------------------------------------------------- */
+.card, .card-cyber {
+  position: relative;
+  transform-style: preserve-3d;
+  will-change: transform;
+  background: var(--color-dark-blue-85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(89, 53, 166, 0.28);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  overflow: hidden;
+  transition: transform 120ms ease, box-shadow 250ms ease, border-color 250ms ease;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(89, 53, 166, 0.6), transparent);
+}
+
+/* Mouse-responsive dynamic light sheen */
+.card::after, .card-cyber::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at var(--sheen-x, 50%) var(--sheen-y, 50%),
+    rgba(89, 53, 166, 0.22) 0%,
+    rgba(11, 21, 53, 0) 65%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  z-index: 2;
+}
+
+.card:hover::after, .card-cyber:hover::after {
+  opacity: 1;
+}
+
+.card:hover {
+  border-color: rgba(89, 53, 166, 0.6);
+  box-shadow: 0 20px 40px rgba(5, 9, 31, 0.9), var(--glow-electric);
+}
+
+.card-cyber {
+  background: linear-gradient(160deg, rgba(11, 21, 53, 0.9) 0%, rgba(33, 22, 77, 0.45) 100%);
+  border: 1px solid rgba(89, 53, 166, 0.32);
+  position: relative;
+}
+
+.card-cyber::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  border-right: 2px solid var(--color-electric-purple);
+  border-bottom: 2px solid var(--color-electric-purple);
+}
+
+/* --------------------------------------------------------------------------
+   5. PREMIUM HOVER INTERACTIONS (Buttons, Socials, Skills, Nav)
+   -------------------------------------------------------------------------- */
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  padding: 12px 28px;
+  min-height: 44px;
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color var(--transition-normal), border-color var(--transition-normal), box-shadow var(--transition-normal), color var(--transition-normal);
+  text-decoration: none;
+  user-select: none;
+  position: relative;
+}
+
+.btn-sm {
+  padding: 8px 18px;
+  min-height: 38px;
+  font-size: var(--text-xs);
+}
+
+.btn-primary {
+  background-color: var(--color-electric-purple);
+  color: var(--color-text-primary);
+  border-color: rgba(89, 53, 166, 0.8);
+  box-shadow: var(--glow-electric);
+}
+
+.btn-primary:hover {
+  background-color: #6940be;
+  box-shadow: 0 0 32px rgba(89, 53, 166, 0.8);
+  color: var(--color-text-primary);
+}
+
+.btn-secondary {
+  background-color: var(--color-dark-blue);
+  color: var(--color-text-primary);
+  border-color: rgba(89, 53, 166, 0.4);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-deep-purple);
+  border-color: var(--color-electric-purple);
+  box-shadow: 0 4px 24px rgba(11, 21, 53, 0.85);
+  color: var(--color-text-primary);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--color-text-primary);
+  border-color: rgba(89, 53, 166, 0.5);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+}
+
+.btn-outline:hover {
+  background: rgba(89, 53, 166, 0.16);
+  border-color: var(--color-electric-purple);
+  box-shadow: var(--glow-electric);
+}
+
+.btn-icon {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: var(--radius-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-dark-blue);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  color: var(--color-text-muted);
+  transition: all var(--transition-normal);
+}
+
+.btn-icon:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-electric-purple);
+  box-shadow: var(--glow-electric);
+}
+
+/* Social Icon Button Hover */
+.social-icon-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-dark-blue);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  color: var(--color-text-muted);
+  transition: all var(--transition-normal);
+  text-decoration: none;
+}
+
+.social-icon-btn:hover {
+  color: var(--color-text-primary);
+  border-color: var(--color-electric-purple);
+  box-shadow: var(--glow-electric);
+  transform: translateY(-3px);
+}
+
+/* Skill Pills Hover */
+.skill-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(11, 21, 53, 0.7);
+  border: 1px solid rgba(89, 53, 166, 0.25);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-primary);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  transition: all var(--transition-fast);
+}
+
+.skill-pill:hover {
+  background: rgba(89, 53, 166, 0.2);
+  border-color: var(--color-electric-purple);
+  box-shadow: 0 0 14px rgba(89, 53, 166, 0.4);
+  transform: translateY(-2px);
+}
+
+/* --------------------------------------------------------------------------
+   STICKY GLASSMORPHISM NAVIGATION
+   -------------------------------------------------------------------------- */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: var(--z-header);
+  padding: 16px 0;
+  background: var(--color-dark-blue-85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(89, 53, 166, 0.22);
+  transition: all var(--transition-normal);
+}
+
+.navbar.scrolled {
+  padding: 12px 0;
+  background: rgba(5, 9, 31, 0.94);
+  border-bottom-color: rgba(89, 53, 166, 0.45);
+  box-shadow: 0 10px 30px rgba(5, 9, 31, 0.85);
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  text-decoration: none;
+}
+
+.logo-monogram {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-hex {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: #0B1535;
+  stroke: var(--color-electric-purple);
+  stroke-width: 2.2;
+  transition: all var(--transition-normal);
+}
+
+.brand-logo:hover .logo-hex {
+  stroke-width: 3;
+  filter: drop-shadow(0 0 8px rgba(89, 53, 166, 0.8));
+}
+
+.logo-initials {
+  position: relative;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--color-text-primary);
+  letter-spacing: -0.02em;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-text-primary);
+}
+
+.brand-badge {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--color-electric-purple);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  list-style: none;
+}
+
+.nav-link {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  transition: all var(--transition-fast);
+  position: relative;
+  padding: 6px 2px;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-electric-purple);
+  box-shadow: 0 0 10px var(--color-electric-purple);
+  transition: width var(--transition-normal);
+}
+
+.nav-link:hover {
+  color: var(--color-text-primary);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--color-text-primary);
+}
+
+.mobile-cta-item {
+  display: none;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.nav-toggle {
+  display: none;
+  background: transparent;
+  border: 1px solid rgba(89, 53, 166, 0.35);
+  padding: 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hamburger-bar {
+  width: 22px;
+  height: 2px;
+  background-color: var(--color-text-primary);
+  transition: transform var(--transition-normal), opacity var(--transition-normal);
+}
+
+.nav-toggle.is-open .hamburger-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-toggle.is-open .hamburger-bar:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.is-open .hamburger-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* --------------------------------------------------------------------------
+   FULL-SCREEN HERO SECTION
+   -------------------------------------------------------------------------- */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 0 90px 0;
+  overflow: hidden;
+  background-color: var(--color-midnight);
+}
+
+.hero-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-ambient-glow {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 750px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(89, 53, 166, 0.22) 0%, rgba(11, 21, 53, 0.1) 50%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content {
+  max-width: 860px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: 6px 16px;
+  background: rgba(11, 21, 53, 0.85);
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-lg);
+  color: var(--color-text-primary);
+  font-size: var(--text-xs);
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-greeting {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-xs);
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 5vw + 1rem, 4.25rem);
+  line-height: 1.1;
+  margin-bottom: var(--space-md);
+  font-weight: 700;
+}
+
+.hero-role-wrapper {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-xl);
+  color: var(--color-electric-purple);
+  margin-bottom: var(--space-lg);
+  font-weight: 600;
+  min-height: 2.2rem;
+}
+
+.hero-role-prefix {
+  color: var(--color-text-muted);
+  margin-right: 6px;
+}
+
+.hero-typewriter {
+  color: var(--color-text-primary);
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  color: var(--color-electric-purple);
+  margin-left: 4px;
+  animation: blink 1s step-end infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.hero-description {
+  font-size: var(--text-lg);
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  max-width: 720px;
+  margin-bottom: var(--space-lg);
+}
+
+.hero-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(11, 21, 53, 0.7);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2xl);
+  position: relative;
+}
+
+.location-icon {
+  width: 16px;
+  height: 16px;
+  stroke: var(--color-electric-purple);
+}
+
+.location-pulse {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--color-electric-purple);
+  box-shadow: 0 0 10px var(--color-electric-purple);
+  animation: pulse-glow 2s infinite ease-in-out;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.hero-scroll-indicator {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  z-index: 2;
+  transition: opacity var(--transition-normal);
+}
+
+.scroll-mouse {
+  width: 24px;
+  height: 38px;
+  border: 2px solid rgba(89, 53, 166, 0.6);
+  border-radius: 12px;
+  position: relative;
+}
+
+.scroll-wheel {
+  width: 4px;
+  height: 8px;
+  background-color: var(--color-electric-purple);
+  box-shadow: 0 0 6px var(--color-electric-purple);
+  border-radius: 2px;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll-wheel-anim 1.8s ease-in-out infinite;
+}
+
+@keyframes scroll-wheel-anim {
+  0% { transform: translate(-50%, 0); opacity: 1; }
+  80% { transform: translate(-50%, 14px); opacity: 0; }
+  81% { transform: translate(-50%, 0); opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.scroll-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  color: var(--color-text-muted);
+}
+
+/* --------------------------------------------------------------------------
+   REUSABLE KEYFRAMES & UTILITIES
+   -------------------------------------------------------------------------- */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 8px var(--color-electric-purple); }
+  50% { opacity: 0.5; transform: scale(0.9); box-shadow: 0 0 2px var(--color-electric-purple); }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 600ms cubic-bezier(0.16, 1, 0.3, 1), transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cyber-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: var(--z-modal);
+  background: var(--color-dark-blue);
+  border: 1px solid var(--color-electric-purple);
+  box-shadow: var(--shadow-lg), var(--glow-electric);
+  border-radius: var(--radius-md);
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  transform: translateY(120%);
+  opacity: 0;
+  transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1), opacity 300ms ease;
+  max-width: 380px;
+}
+
+.cyber-toast.is-active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.toast-indicator {
+  width: 6px;
+  height: 36px;
+  background: var(--color-electric-purple);
+  border-radius: var(--radius-xs);
+  box-shadow: 0 0 10px var(--color-electric-purple);
+}
+
+.toast-title {
+  font-size: var(--text-xs);
+  color: var(--color-electric-purple);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.toast-message {
+  font-size: var(--text-sm);
+  color: var(--color-text-primary);
+  margin-top: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   About Section Grid Layouts
+   -------------------------------------------------------------------------- */
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: var(--space-xl);
+  align-items: stretch;
+}
+
+.about-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-sm);
+}
+
+/* --------------------------------------------------------------------------
+   RESPONSIVE DESIGN RULES (8 Viewports: 320, 375, 430, 768, 1024, 1280, 1440, 1920)
+   -------------------------------------------------------------------------- */
+@media (max-width: 991px) {
+  :root {
+    --container-padding: 24px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(5, 9, 31, 0.98);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-xl) var(--container-padding);
+    border-bottom: 1px solid rgba(89, 53, 166, 0.35);
+    gap: var(--space-lg);
+    transform: translateY(-120%);
+    opacity: 0;
+    transition: transform var(--transition-normal), opacity var(--transition-normal);
+    pointer-events: none;
+    z-index: var(--z-header);
+    box-shadow: 0 20px 40px rgba(5, 9, 31, 0.95);
+  }
+
+  .nav-menu.is-active {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .mobile-cta-item {
+    display: block;
+    width: 100%;
+    margin-top: var(--space-sm);
+  }
+
+  .nav-connect-btn {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .about-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-padding: 20px;
+  }
+
+  .skills-matrix {
+    grid-template-columns: 1fr;
+  }
+
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .about-stats-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xs);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 16px;
+  }
+
+  .hero-section {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 7vw, 2.75rem);
+  }
+
+  .card {
+    padding: var(--space-md);
+  }
+
+  .education-timeline {
+    padding-left: 28px;
+  }
+
+  .timeline-node {
+    left: -28px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .timeline-laser-line,
+  .education-timeline::before {
+    left: 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  :root {
+    --container-padding: 12px;
+  }
+
+  .hero-title {
+    font-size: 1.85rem;
+  }
+
+  .hero-badge {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+
+  .hero-role-wrapper {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    padding: 10px 14px;
+    font-size: 0.8125rem;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  .cert-card-body,
+  .project-card-body {
+    padding: 12px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  :root {
+    --container-padding: 32px;
+  }
+
+  .nav-menu {
+    gap: var(--space-lg);
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --container-padding: 40px;
+  }
+
+  .container {
+    max-width: var(--container-2xl);
+  }
+}
+
+/* ==========================================================================
+   PHASE 5: CERTIFICATES & ACHIEVEMENTS GALLERY & MODAL
+   ========================================================================== */
+
+/* Certificates Grid */
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-xl);
+}
+
+/* Certificate Card */
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--color-dark-blue-85);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 250ms var(--transition-smooth), border-color 250ms ease, box-shadow 250ms ease;
+  position: relative;
+}
+
+.cert-card:hover {
+  border-color: rgba(89, 53, 166, 0.7);
+  box-shadow: 0 16px 36px rgba(5, 9, 31, 0.9), 0 0 28px rgba(89, 53, 166, 0.45);
+  transform: translateY(-6px);
+}
+
+/* Thumbnail Wrapper with Image Zoom */
+.cert-thumb-container {
+  position: relative;
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+  background: #05091F;
+  border-bottom: 1px solid rgba(89, 53, 166, 0.25);
+}
+
+.cert-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+}
+
+.cert-card:hover .cert-thumb-img {
+  transform: scale(1.06);
+}
+
+/* Corner Cyber Marker */
+.cert-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  border-top: 2px solid var(--color-electric-purple);
+  border-right: 2px solid var(--color-electric-purple);
+}
+
+/* Certificate Card Body */
+.cert-card-body {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.cert-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.cert-issuer {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-electric-purple);
+  letter-spacing: 0.05em;
+}
+
+.cert-date {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--color-text-muted);
+}
+
+.cert-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: var(--space-xs);
+  color: var(--color-text-primary);
+}
+
+.cert-id-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.cert-card-footer {
+  margin-top: var(--space-md);
+  padding-top: var(--space-sm);
+  border-top: 1px solid rgba(89, 53, 166, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ==========================================================================
+   CERTIFICATE PREVIEW MODAL
+   ========================================================================== */
+.cert-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease;
+}
+
+.cert-modal.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cert-modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 9, 31, 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  z-index: 1;
+}
+
+.cert-modal-dialog {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 900px;
+  max-height: 92vh;
+  background: #0B1535;
+  border: 1px solid rgba(89, 53, 166, 0.5);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.9), 0 0 36px rgba(89, 53, 166, 0.5);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.94) translateY(16px);
+  transition: transform 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cert-modal.is-active .cert-modal-dialog {
+  transform: scale(1) translateY(0);
+}
+
+/* Close Button */
+.cert-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: var(--radius-sm);
+  background: rgba(5, 9, 31, 0.85);
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  color: var(--color-text-primary);
+  font-size: 1.5rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all var(--transition-fast);
+}
+
+.cert-modal-close:hover {
+  background: var(--color-electric-purple);
+  border-color: #FFFFFF;
+  box-shadow: var(--glow-electric);
+  transform: scale(1.05);
+}
+
+/* Media Area in Modal */
+.cert-modal-media {
+  position: relative;
+  width: 100%;
+  background: #05091F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+  max-height: 60vh;
+  overflow: auto;
+}
+
+.cert-modal-img {
+  max-width: 100%;
+  max-height: 56vh;
+  object-fit: contain;
+  border-radius: var(--radius-xs);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+  display: block;
+}
+
+.cert-modal-pdf {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+}
+
+.cert-modal-pdf iframe {
+  width: 100%;
+  height: 52vh;
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  border-radius: var(--radius-sm);
+  background: #05091F;
+  margin-bottom: var(--space-md);
+}
+
+/* Info & Navigation Footer */
+.cert-modal-info {
+  padding: var(--space-lg) var(--space-xl);
+  background: #0B1535;
+  border-top: 1px solid rgba(89, 53, 166, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.cert-modal-details {
+  max-width: 580px;
+}
+
+.cert-modal-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+@media (max-width: 767px) {
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-modal-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cert-modal-nav {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: var(--space-xs);
+  }
+}
+
+/* ==========================================================================
+   PHASE 6: PROJECTS SHOWCASE
+   ========================================================================== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-xl);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--color-dark-blue-85);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: transform 250ms var(--transition-smooth), border-color 250ms ease, box-shadow 250ms ease;
+  position: relative;
+}
+
+.project-card:hover {
+  border-color: rgba(89, 53, 166, 0.7);
+  box-shadow: 0 16px 36px rgba(5, 9, 31, 0.9), 0 0 28px rgba(89, 53, 166, 0.45);
+  transform: translateY(-6px);
+}
+
+.project-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  border-top: 2px solid var(--color-electric-purple);
+  border-right: 2px solid var(--color-electric-purple);
+}
+
+.project-thumb-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: #05091F;
+  border-bottom: 1px solid rgba(89, 53, 166, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-thumb-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+  display: block;
+}
+
+.project-card:hover .project-thumb-img {
+  transform: scale(1.06);
+}
+
+.project-thumb-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, rgba(33, 22, 77, 0.65) 0%, rgba(5, 9, 31, 0.95) 100%);
+  color: var(--color-text-muted);
+  position: relative;
+  transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.project-card:hover .project-thumb-placeholder {
+  transform: scale(1.04);
+}
+
+.project-thumb-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--color-electric-purple);
+  margin-bottom: var(--space-xs);
+  filter: drop-shadow(0 0 8px rgba(89, 53, 166, 0.6));
+}
+
+.project-card-body {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.project-category-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-electric-purple);
+  margin-bottom: 6px;
+}
+
+.project-title {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-xs);
+  line-height: 1.3;
+}
+
+.project-desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-md);
+  flex-grow: 1;
+}
+
+.project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: var(--space-lg);
+}
+
+.tech-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  background: rgba(33, 22, 77, 0.55);
+  border: 1px solid rgba(89, 53, 166, 0.35);
+  border-radius: 999px;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.project-card-footer {
+  display: flex;
+  gap: var(--space-sm);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(89, 53, 166, 0.15);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   PHASE 6: CONTACT SECTION & FORM
+   ========================================================================== */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr;
+  gap: var(--space-2xl);
+  align-items: start;
+  margin-top: var(--space-xl);
+}
+
+.contact-info-card,
+.contact-form-card {
+  background: var(--color-dark-blue-85);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl);
+  position: relative;
+}
+
+.contact-info-card::before,
+.contact-form-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border-top: 2px solid var(--color-electric-purple);
+  border-left: 2px solid var(--color-electric-purple);
+}
+
+.contact-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.contact-detail-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.contact-detail-icon {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  border-radius: var(--radius-sm);
+  background: rgba(33, 22, 77, 0.6);
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-electric-purple);
+  box-shadow: 0 0 12px rgba(89, 53, 166, 0.2);
+}
+
+.contact-detail-label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 2px;
+}
+
+.contact-detail-value {
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color 200ms ease;
+  word-break: break-all;
+}
+
+.contact-detail-value:hover {
+  color: var(--color-electric-purple);
+}
+
+/* Contact Form Elements */
+.form-group {
+  margin-bottom: var(--space-md);
+  position: relative;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+
+.form-label span.req {
+  color: var(--color-electric-purple);
+  margin-left: 2px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 16px;
+  background: rgba(5, 9, 31, 0.75);
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  transition: border-color 200ms ease, box-shadow 200ms ease, background 200ms ease;
+}
+
+.form-control:focus {
+  outline: none;
+  background: rgba(5, 9, 31, 0.95);
+  border-color: var(--color-electric-purple);
+  box-shadow: 0 0 14px rgba(89, 53, 166, 0.45);
+}
+
+.form-control.is-invalid {
+  border-color: #e04747;
+  box-shadow: 0 0 10px rgba(224, 71, 71, 0.35);
+}
+
+.form-feedback {
+  display: none;
+  font-size: 0.75rem;
+  color: #ff7875;
+  margin-top: 5px;
+  font-family: var(--font-mono);
+}
+
+.form-control.is-invalid ~ .form-feedback {
+  display: block;
+}
+
+.form-status {
+  display: none;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  margin-bottom: var(--space-md);
+  line-height: 1.5;
+}
+
+.form-status.is-success {
+  display: block;
+  background: rgba(33, 22, 77, 0.7);
+  border: 1px solid var(--color-electric-purple);
+  color: #FFFFFF;
+  box-shadow: 0 0 16px rgba(89, 53, 166, 0.35);
+}
+
+.form-status.is-error {
+  display: block;
+  background: rgba(45, 12, 20, 0.7);
+  border: 1px solid #e04747;
+  color: #FFFFFF;
+}
+
+.form-status.is-info {
+  display: block;
+  background: rgba(11, 21, 53, 0.85);
+  border: 1px solid rgba(89, 53, 166, 0.5);
+  color: var(--color-text-muted);
+}
+
+/* Spinner Animation for Loading State */
+.btn-spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #FFFFFF;
+  border-radius: 50%;
+  animation: cyberSpin 800ms linear infinite;
+}
+
+@keyframes cyberSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   PHASE 6: PREMIUM FOOTER
+   ========================================================================== */
+.site-footer {
+  background: #05091F;
+  border-top: 1px solid rgba(89, 53, 166, 0.25);
+  padding: var(--space-3xl) 0 var(--space-xl);
+  position: relative;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-electric-purple), transparent);
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-2xl);
+  border-bottom: 1px solid rgba(89, 53, 166, 0.15);
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.footer-brand-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.footer-brand-sub {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+}
+
+.footer-nav {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer-nav-link {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  text-decoration: none;
+  transition: color 200ms ease;
+  font-weight: 500;
+}
+
+.footer-nav-link:hover {
+  color: var(--color-electric-purple);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  padding-top: var(--space-xl);
+}
+
+.footer-copy {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.footer-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+/* Responsive Overrides */
+@media (max-width: 991px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-matrix {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    padding: var(--space-lg);
+  }
+
+  .footer-top,
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-actions {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: var(--space-sm);
+  }
+}
+
+/* ==========================================================================
+   PHASE 7: LOADING SCREEN
+   ========================================================================== */
+.site-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #05091F;
+  z-index: 99999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 500ms cubic-bezier(0.16, 1, 0.3, 1), visibility 500ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.site-loader.is-loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.loader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.loader-monogram-wrap {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-circle-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.loader-circle-bg {
+  stroke: rgba(89, 53, 166, 0.2);
+  stroke-width: 4;
+  fill: transparent;
+}
+
+.loader-circle-bar {
+  stroke: var(--color-electric-purple);
+  stroke-width: 4;
+  fill: transparent;
+  stroke-linecap: round;
+  stroke-dasharray: 276;
+  stroke-dashoffset: 276;
+  animation: loaderSpin 1.4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes loaderSpin {
+  0% {
+    stroke-dashoffset: 276;
+    transform: rotate(0deg);
+  }
+  50% {
+    stroke-dashoffset: 70;
+    transform: rotate(180deg);
+  }
+  100% {
+    stroke-dashoffset: 276;
+    transform: rotate(360deg);
+  }
+}
+
+.loader-monogram {
+  font-family: var(--font-mono);
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: -0.05em;
+  filter: drop-shadow(0 0 16px rgba(89, 53, 166, 0.8));
+  animation: loaderPulse 1.8s ease-in-out infinite alternate;
+}
+
+@keyframes loaderPulse {
+  0% {
+    transform: scale(0.96);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1.04);
+    opacity: 1;
+    filter: drop-shadow(0 0 24px rgba(89, 53, 166, 1));
+  }
+}
+
+.loader-status {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  color: var(--color-text-muted);
+  margin-top: var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.loader-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-electric-purple);
+  box-shadow: 0 0 8px var(--color-electric-purple);
+  animation: cyberBlink 1s infinite alternate;
+}
+
+@keyframes cyberBlink {
+  0% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.loader-progress-track {
+  width: 170px;
+  height: 3px;
+  background: rgba(89, 53, 166, 0.25);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: var(--space-sm);
+}
+
+.loader-progress-bar {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #21164D, #5935A6);
+  border-radius: 999px;
+  transition: width 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   PHASE 7: ADVANCED SCROLL REVEALS & STAGGER
+   ========================================================================== */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 700ms cubic-bezier(0.16, 1, 0.3, 1), transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-stagger > *:nth-child(1) { transition-delay: 60ms; }
+.reveal-stagger > *:nth-child(2) { transition-delay: 130ms; }
+.reveal-stagger > *:nth-child(3) { transition-delay: 200ms; }
+.reveal-stagger > *:nth-child(4) { transition-delay: 270ms; }
+.reveal-stagger > *:nth-child(5) { transition-delay: 340ms; }
+.reveal-stagger > *:nth-child(6) { transition-delay: 410ms; }
+
+/* Futuristic Section Dividers */
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(89, 53, 166, 0.45), transparent);
+  position: relative;
+  margin: 0;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7px;
+  height: 7px;
+  background: var(--color-electric-purple);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--color-electric-purple);
+}
+
+/* ==========================================================================
+   PHASE 7: EDUCATION TIMELINE STYLES
+   ========================================================================== */
+.education-timeline {
+  position: relative;
+  padding-left: 36px;
+  margin-top: var(--space-xl);
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 11px;
+  width: 2px;
+  background: rgba(89, 53, 166, 0.25);
+}
+
+.timeline-laser-line {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  width: 2px;
+  height: 0%;
+  background: linear-gradient(180deg, var(--color-electric-purple), #21164D);
+  box-shadow: 0 0 10px rgba(89, 53, 166, 0.7);
+  transition: height 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--space-2xl);
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-node {
+  position: absolute;
+  top: 6px;
+  left: -36px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #05091F;
+  border: 2px solid var(--color-electric-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 12px rgba(89, 53, 166, 0.6);
+  z-index: 2;
+}
+
+.timeline-node::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--color-electric-purple);
+  box-shadow: 0 0 8px var(--color-electric-purple);
+}
+
+/* ==========================================================================
+   PHASE 7: CATEGORIZED SKILLS MATRIX & PROFICIENCY
+   ========================================================================== */
+.skills-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-xl);
+}
+
+.skill-category-card {
+  background: var(--color-dark-blue-85);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  transition: transform 250ms var(--transition-smooth), border-color 250ms ease, box-shadow 250ms ease;
+  position: relative;
+}
+
+.skill-category-card:hover {
+  border-color: rgba(89, 53, 166, 0.7);
+  box-shadow: 0 14px 32px rgba(5, 9, 31, 0.9), 0 0 24px rgba(89, 53, 166, 0.4);
+  transform: translateY(-4px);
+}
+
+.skill-category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid rgba(89, 53, 166, 0.2);
+}
+
+.skill-category-icon {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: var(--radius-sm);
+  background: rgba(33, 22, 77, 0.6);
+  border: 1px solid rgba(89, 53, 166, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-electric-purple);
+  box-shadow: 0 0 10px rgba(89, 53, 166, 0.25);
+}
+
+.skill-category-title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.skill-bars-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.skill-bar-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.skill-bar-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8125rem;
+}
+
+.skill-bar-name {
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.skill-bar-pct {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-electric-purple);
+}
+
+.skill-bar-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(5, 9, 31, 0.85);
+  border: 1px solid rgba(89, 53, 166, 0.3);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #21164D, #5935A6);
+  border-radius: 999px;
+  box-shadow: 0 0 8px rgba(89, 53, 166, 0.5);
+  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   PHASE 7: REDUCED MOTION ACCESSIBILITY OVERRIDES
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .site-loader {
+    display: none !important;
+  }
+
+  .skill-bar-fill {
+    transition: none !important;
+  }
+
+  .timeline-laser-line {
+    height: 100% !important;
+    transition: none !important;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Skip to Content Navigation for Accessibility -->
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+  <!-- ======================================================================
+       PHASE 7: FUTURISTIC LOADING SCREEN
+       ====================================================================== -->
+  <div id="siteLoader" class="site-loader" role="progressbar" aria-label="Initializing cybersecurity portfolio">
+    <div class="loader-content">
+      <div class="loader-monogram-wrap">
+        <svg class="loader-circle-svg" viewBox="0 0 100 100">
+          <circle class="loader-circle-bg" cx="50" cy="50" r="44"></circle>
+          <circle class="loader-circle-bar" cx="50" cy="50" r="44"></circle>
+        </svg>
+        <div class="loader-monogram">LR</div>
+      </div>
+      <div class="loader-status font-mono">
+        <span class="loader-status-dot"></span>
+        <span class="loader-status-text">INITIALIZING DEFENSE SYSTEMS...</span>
+      </div>
+      <div class="loader-progress-track">
+        <div class="loader-progress-bar" id="loaderProgressBar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       PREMIUM STICKY NAVIGATION BAR (Glassmorphism)
+       ====================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      
+      <!-- LR Monogram Logo -->
+      <a href="#home" class="brand-logo" aria-label="Laiba Rafiq Homepage">
+        <div class="logo-monogram">
+          <svg viewBox="0 0 40 40" class="logo-hex">
+            <polygon points="20,2 38,11 38,29 20,38 2,29 2,11" />
+          </svg>
+          <span class="logo-initials">LR</span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">LAIBA RAFIQ</span>
+          <span class="brand-badge"><span class="badge-dot"></span> SEC_OPS</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="mobile-cta-item">
+            <a href="#contact" class="btn btn-primary btn-sm" style="width: 100%;">Let's Connect</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Desktop CTA & Responsive Hamburger -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary nav-connect-btn">Let's Connect</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <!-- ------------------------------------------------------------------
+         FULL-SCREEN FUTURISTIC CYBERSECURITY HERO SECTION
+         ------------------------------------------------------------------ -->
+    <section class="hero-section" id="home">
+      
+      <!-- Interactive Constellation Canvas -->
+      <canvas id="heroNetworkCanvas" class="hero-canvas"></canvas>
+
+      <!-- Ambient Blue-Purple Glow -->
+      <div class="hero-ambient-glow" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <div class="hero-content">
+
+          <!-- Terminal Badge -->
+          <div class="hero-badge reveal">
+            <span class="badge-dot"></span>
+            <span class="font-mono">root@laiba-rafiq:~$ security --status active</span>
+          </div>
+
+          <!-- Greeting Subtitle -->
+          <h2 class="hero-greeting reveal">Hello, I'm</h2>
+
+          <!-- Main Name Title -->
+          <h1 class="hero-title reveal">
+            Laiba <span class="text-gradient">Rafiq</span>
+          </h1>
+
+          <!-- Typewriter Role Animation -->
+          <div class="hero-role-wrapper reveal">
+            <span class="hero-role-prefix font-mono">// </span>
+            <span class="hero-typewriter" id="heroTypewriter"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+
+          <!-- Professional Description -->
+          <p class="hero-description reveal">
+            An aspiring cybersecurity professional passionate about network defense, cloud technologies, data analytics, and building practical technology solutions.
+          </p>
+
+          <!-- Location Indicator -->
+          <div class="hero-location reveal">
+            <svg class="location-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Location: <strong>Islamabad, Pakistan</strong></span>
+            <span class="location-pulse" aria-hidden="true"></span>
+          </div>
+
+          <!-- Action Buttons Cluster (Magnetic Enabled) -->
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <button class="btn btn-secondary" id="btnResumeRequest">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </button>
+
+            <a href="#contact" class="btn btn-outline">
+              <span>Let's Connect</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Animated Scroll Indicator -->
+      <a href="#about" class="hero-scroll-indicator" aria-label="Scroll to About section">
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span class="scroll-label font-mono">SCROLL_DOWN</span>
+      </a>
+
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         ABOUT SECTION
+         ------------------------------------------------------------------ -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> PROFILE &amp; PHILOSOPHY</span>
+          <h2>Architecting Resilient Defense &amp; Intelligent Systems.</h2>
+          <p>
+            An Information Technology student and dedicated Cybersecurity enthusiast with hands-on expertise in network traffic inspection, Python security automation, C++ system foundations, and data analytics.
+          </p>
+        </div>
+
+        <div class="about-layout reveal">
+          
+          <!-- Terminal / System Spec Card -->
+          <div class="card card-cyber" style="display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <div style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(89, 53, 166, 0.25); padding-bottom: var(--space-sm); margin-bottom: var(--space-md);">
+                <div style="display: flex; gap: 6px; align-items: center;">
+                  <span style="width: 10px; height: 10px; border-radius: 50%; background: #ff4d4f;"></span>
+                  <span style="width: 10px; height: 10px; border-radius: 50%; background: #faad14;"></span>
+                  <span style="width: 10px; height: 10px; border-radius: 50%; background: var(--color-electric-purple);"></span>
+                </div>
+                <span class="font-mono text-xs" style="color: var(--color-text-muted);">terminal://laiba.profile</span>
+              </div>
+              
+              <div class="font-mono text-xs" style="line-height: 1.8; color: var(--color-text-muted);">
+                <p><span style="color: var(--color-electric-purple);">$</span> whoami</p>
+                <p style="color: #FFFFFF; font-weight: 600;">> Laiba Rafiq &bull; IT Scholar &amp; Cyber Defender</p>
+                <br>
+                <p><span style="color: var(--color-electric-purple);">$</span> location --current</p>
+                <p style="color: #FFFFFF;">> Islamabad, Pakistan (PK)</p>
+                <br>
+                <p><span style="color: var(--color-electric-purple);">$</span> cat focus_domains.txt</p>
+                <p style="color: #FFFFFF;">[+] Network Security &amp; Packet Flow Analysis<br>[+] Python Automation &amp; Vulnerability Auditing<br>[+] Systems Programming (C++) &amp; Linux Hardening<br>[+] Business Intelligence &amp; Data Analytics</p>
+              </div>
+            </div>
+
+            <div style="margin-top: var(--space-lg); padding-top: var(--space-sm); border-top: 1px solid rgba(89, 53, 166, 0.2); display: flex; justify-content: space-between; align-items: center;">
+              <span class="badge" style="font-size: 0.6875rem;"><span class="badge-dot"></span> STATUS: DEFENSE_READY</span>
+              <a href="#contact" class="btn btn-outline btn-sm">Get in Touch</a>
+            </div>
+          </div>
+
+          <!-- Narrative & Metric Highlights -->
+          <div style="display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-md);">
+            <div class="card card-cyber" style="padding: var(--space-xl);">
+              <h3 style="font-size: var(--text-xl); margin-bottom: var(--space-xs);">Driven by Defense, Data &amp; Innovation</h3>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.7; margin-bottom: var(--space-md);">
+                Passionate about understanding how complex computer networks operate under the hood—and how to protect them against unauthorized ingress. Dedicated to continuous hands-on learning across operating systems, network packet dissection, algorithm design, and security engineering.
+              </p>
+              <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap;">
+                <span class="tech-tag">Network Defense</span>
+                <span class="tech-tag">Packet Analysis</span>
+                <span class="tech-tag">Python &amp; C++</span>
+                <span class="tech-tag">Data Analytics</span>
+                <span class="tech-tag">Cloud Security</span>
+              </div>
+            </div>
+
+            <!-- 3 Stat Metrics -->
+            <div class="about-stats-grid">
+              <div class="card card-cyber" style="padding: var(--space-md); text-align: center;">
+                <div class="font-mono" style="color: var(--color-electric-purple); font-size: 1.5rem; font-weight: 700;">5+</div>
+                <div style="font-size: 0.72rem; color: var(--color-text-muted); margin-top: 2px;">Verified Certifications</div>
+              </div>
+              <div class="card card-cyber" style="padding: var(--space-md); text-align: center;">
+                <div class="font-mono" style="color: var(--color-electric-purple); font-size: 1.5rem; font-weight: 700;">BS IT</div>
+                <div style="font-size: 0.72rem; color: var(--color-text-muted); margin-top: 2px;">Degree Candidate</div>
+              </div>
+              <div class="card card-cyber" style="padding: var(--space-md); text-align: center;">
+                <div class="font-mono" style="color: var(--color-electric-purple); font-size: 1.5rem; font-weight: 700;">100%</div>
+                <div style="font-size: 0.72rem; color: var(--color-text-muted); margin-top: 2px;">Dedication to Defense</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         EDUCATION SECTION
+         ------------------------------------------------------------------ -->
+    <section class="section" id="education" style="background: rgba(11, 21, 53, 0.25);">
+      <div class="container">
+        
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> ACADEMIC FOUNDATION</span>
+          <h2>Formal Education &amp; Technical Studies.</h2>
+          <p>
+            Rigorous undergraduate coursework building foundational engineering concepts across computing architectures, network communication, systems programming, and information assurance:
+          </p>
+        </div>
+
+        <div class="education-timeline reveal">
+          <div class="timeline-laser-line"></div>
+
+          <!-- Academic Item -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="card card-cyber" style="padding: var(--space-xl);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-xs);">
+                <div>
+                  <span class="badge" style="font-size: 0.6875rem; margin-bottom: 6px;">UNDERGRADUATE DEGREE</span>
+                  <h3 style="font-size: var(--text-2xl); margin: 0; color: #FFFFFF;">Bachelor of Science in Information Technology (BS IT)</h3>
+                  <div style="color: var(--color-electric-purple); font-weight: 500; font-size: var(--text-sm); margin-top: 4px;">
+                    Department of Information Technology &bull; Islamabad, Pakistan
+                  </div>
+                </div>
+                <span class="font-mono text-xs" style="color: var(--color-text-muted); background: rgba(5, 9, 31, 0.8); padding: 4px 12px; border-radius: var(--radius-sm); border: 1px solid rgba(89, 53, 166, 0.3);">
+                  Active Candidate
+                </span>
+              </div>
+
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.6; margin-top: var(--space-md); margin-bottom: var(--space-lg);">
+                Specialized study combining deep computational theory with applied laboratory practice. Emphasizes threat surface analysis, software security, network packet flow dynamics, operating system kernel abstractions, and database optimization.
+              </p>
+
+              <div>
+                <div class="font-mono text-xs" style="color: var(--color-text-primary); margin-bottom: var(--space-xs); letter-spacing: 0.05em;">CORE CURRICULUM HIGHLIGHTS:</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+                  <span class="tech-tag">Computer Communication &amp; Networks</span>
+                  <span class="tech-tag">Cryptography &amp; Information Security</span>
+                  <span class="tech-tag">Operating Systems (Linux/Unix Internals)</span>
+                  <span class="tech-tag">Object-Oriented Programming (C++ &amp; Python)</span>
+                  <span class="tech-tag">Database Management Systems (RDBMS &amp; SQL)</span>
+                  <span class="tech-tag">Data Structures &amp; Algorithms</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         SKILLS SECTION
+         ------------------------------------------------------------------ -->
+    <section class="section" id="skills">
+      <div class="container">
+        
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> TECHNICAL ARSENAL</span>
+          <h2>Skills &amp; Technology Matrix.</h2>
+          <p>
+            Categorized technical capabilities and practical tools applied across cybersecurity defense, software engineering, systems administration, and data analysis:
+          </p>
+        </div>
+
+        <div class="skills-matrix reveal-stagger">
+          
+          <!-- Category 1: Cybersecurity & Defense -->
+          <div class="card skill-category-card card-cyber reveal">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Cybersecurity &amp; Defense</h3>
+            </div>
+            
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Network Packet Inspection (Wireshark)</span>
+                  <span class="skill-bar-pct">90%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="90%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">OWASP Security Guidelines &amp; Audit</span>
+                  <span class="skill-bar-pct">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Port Scanning &amp; Threat Vectors</span>
+                  <span class="skill-bar-pct">82%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="82%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Linux Host Hardening &amp; Firewall</span>
+                  <span class="skill-bar-pct">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="88%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Scripting & Systems -->
+          <div class="card skill-category-card card-cyber reveal">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Scripting &amp; Systems</h3>
+            </div>
+            
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Python 3 (Cisco Certified)</span>
+                  <span class="skill-bar-pct">92%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="92%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">C++ Systems Programming (Cisco/VU)</span>
+                  <span class="skill-bar-pct">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Linux / Unix CLI &amp; Utilities</span>
+                  <span class="skill-bar-pct">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="88%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Bash Shell Scripting &amp; Automation</span>
+                  <span class="skill-bar-pct">80%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Data Analytics & Intelligence -->
+          <div class="card skill-category-card card-cyber reveal">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Data Analytics &amp; AI</h3>
+            </div>
+            
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Data Analytics &amp; BI (DigiSkills)</span>
+                  <span class="skill-bar-pct">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="88%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">AI using Python (DigiSkills)</span>
+                  <span class="skill-bar-pct">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="85%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">SQL Database Queries &amp; Schemas</span>
+                  <span class="skill-bar-pct">82%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="82%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Data Visualization &amp; Reporting</span>
+                  <span class="skill-bar-pct">86%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="86%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Web Architecture & Cloud -->
+          <div class="card skill-category-card card-cyber reveal">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Web &amp; Cloud Systems</h3>
+            </div>
+            
+            <div class="skill-bars-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">HTML5, CSS3 &amp; Vanilla JavaScript</span>
+                  <span class="skill-bar-pct">95%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="95%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Hardened Web Architecture &amp; CSP</span>
+                  <span class="skill-bar-pct">88%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="88%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">WordPress Architecture (DigiSkills)</span>
+                  <span class="skill-bar-pct">86%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="86%"></div>
+                </div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-meta">
+                  <span class="skill-bar-name">Cloud Infrastructure &amp; Virtualization</span>
+                  <span class="skill-bar-pct">80%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill" data-pct="80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         PHASE 5: CERTIFICATES & ACHIEVEMENTS GALLERY
+         ------------------------------------------------------------------ -->
+    <section class="section" id="certificates" style="background: rgba(11, 21, 53, 0.25);">
+      <div class="container">
+        
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> VERIFIED CREDENTIALS</span>
+          <h2>Official Certificates &amp; Achievements</h2>
+          <p>Accredited technical certifications awarded by Cisco Networking Academy and DigiSkills.pk / Ministry of IT &amp; Telecom / Ignite. Click any card or button to inspect full certificate:</p>
+        </div>
+
+        <!-- Premium Certificate Grid (Pre-rendered for Instant Loading & SEO) -->
+        <div class="certificates-grid" id="certificatesGrid">
+          
+          <!-- Certificate Card 0: Cisco CCNA: Introduction to Networks -->
+          <div class="card cert-card card-cyber reveal" data-index="0" tabindex="0" role="button" aria-label="View CCNA: Introduction to Networks certificate">
+            <div class="cert-thumb-container">
+              <img src="assets/certificates/cisco-ccna-intro-networks.jpg" alt="CCNA: Introduction to Networks Certificate" class="cert-thumb-img" loading="lazy">
+            </div>
+            <div class="cert-card-body">
+              <div>
+                <div class="cert-card-meta">
+                  <span class="cert-issuer">Cisco Networking Academy / VU</span>
+                  <span class="cert-date">30 Jun 2026</span>
+                </div>
+                <h3 class="cert-title">CCNA: Introduction to Networks</h3>
+                <div class="cert-id-tag">VU Peshawar • Instructor: Muhammad Faisal Saleem</div>
+              </div>
+              <div class="cert-card-footer">
+                <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">VERIFIED CREDENTIAL</span>
+                <button class="btn btn-outline btn-sm btn-view-cert" data-index="0">
+                  <span>View Certificate</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate Card 1: DigiSkills AI Using Python -->
+          <div class="card cert-card card-cyber reveal" data-index="1" tabindex="0" role="button" aria-label="View Artificial Intelligence Using Python certificate">
+            <div class="cert-thumb-container">
+              <img src="assets/certificates/digiskills-ai-python.jpg" alt="Artificial Intelligence Using Python Certificate" class="cert-thumb-img" loading="lazy">
+            </div>
+            <div class="cert-card-body">
+              <div>
+                <div class="cert-card-meta">
+                  <span class="cert-issuer">DigiSkills.pk / Ministry of IT / VU</span>
+                  <span class="cert-date">20 Jul 2026</span>
+                </div>
+                <h3 class="cert-title">Artificial Intelligence Using Python</h3>
+                <div class="cert-id-tag">ID: YZFVKYCMK • Batch 03 (Apr-Jul 2026)</div>
+              </div>
+              <div class="cert-card-footer">
+                <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">VERIFIED CREDENTIAL</span>
+                <button class="btn btn-outline btn-sm btn-view-cert" data-index="1">
+                  <span>View Certificate</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate Card 2: DigiSkills Data Analytics -->
+          <div class="card cert-card card-cyber reveal" data-index="2" tabindex="0" role="button" aria-label="View Data Analytics and Business Intelligence certificate">
+            <div class="cert-thumb-container">
+              <img src="assets/certificates/digiskills-data-analytics.jpg" alt="Data Analytics and Business Intelligence Certificate" class="cert-thumb-img" loading="lazy">
+            </div>
+            <div class="cert-card-body">
+              <div>
+                <div class="cert-card-meta">
+                  <span class="cert-issuer">DigiSkills.pk / Ministry of IT / VU</span>
+                  <span class="cert-date">20 Jul 2026</span>
+                </div>
+                <h3 class="cert-title">Data Analytics &amp; Business Intelligence</h3>
+                <div class="cert-id-tag">ID: 4D6BCSBMK • Batch 03 (Apr-Jul 2026)</div>
+              </div>
+              <div class="cert-card-footer">
+                <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">VERIFIED CREDENTIAL</span>
+                <button class="btn btn-outline btn-sm btn-view-cert" data-index="2">
+                  <span>View Certificate</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate Card 3: DigiSkills WordPress -->
+          <div class="card cert-card card-cyber reveal" data-index="3" tabindex="0" role="button" aria-label="View WordPress certificate">
+            <div class="cert-thumb-container">
+              <img src="assets/certificates/digiskills-wordpress.jpg" alt="WordPress Certificate" class="cert-thumb-img" loading="lazy">
+            </div>
+            <div class="cert-card-body">
+              <div>
+                <div class="cert-card-meta">
+                  <span class="cert-issuer">DigiSkills.pk / Ministry of IT / VU</span>
+                  <span class="cert-date">14 Mar 2026</span>
+                </div>
+                <h3 class="cert-title">WordPress</h3>
+                <div class="cert-id-tag">ID: J3PYYRUMK • Batch 02 (Dec 2025-Mar 2026)</div>
+              </div>
+              <div class="cert-card-footer">
+                <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">VERIFIED CREDENTIAL</span>
+                <button class="btn btn-outline btn-sm btn-view-cert" data-index="3">
+                  <span>View Certificate</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate Card 4: DigiSkills Freelancing -->
+          <div class="card cert-card card-cyber reveal" data-index="4" tabindex="0" role="button" aria-label="View Freelancing certificate">
+            <div class="cert-thumb-container">
+              <img src="assets/certificates/digiskills-freelancing.jpg" alt="Freelancing Certificate" class="cert-thumb-img" loading="lazy">
+            </div>
+            <div class="cert-card-body">
+              <div>
+                <div class="cert-card-meta">
+                  <span class="cert-issuer">DigiSkills.pk / Ministry of IT / VU</span>
+                  <span class="cert-date">14 Mar 2026</span>
+                </div>
+                <h3 class="cert-title">Freelancing</h3>
+                <div class="cert-id-tag">ID: C3NA4VKMK • Batch 02 (Dec 2025-Mar 2026)</div>
+              </div>
+              <div class="cert-card-footer">
+                <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">VERIFIED CREDENTIAL</span>
+                <button class="btn btn-outline btn-sm btn-view-cert" data-index="4">
+                  <span>View Certificate</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         PROJECTS SECTION
+         ------------------------------------------------------------------ -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> PORTFOLIO HIGHLIGHTS</span>
+          <h2>Things I've Been Building.</h2>
+          <p>
+            Modular technical architectures and specialized project blueprints prepared across cybersecurity defense, network security analysis, machine learning telemetry, data analytics, web engineering, and cloud platforms:
+          </p>
+        </div>
+
+        <!-- 6 Reusable Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- Card 1: Cybersecurity -->
+          <div class="card project-card card-cyber reveal" data-category="cybersecurity">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">CYBER_DEFENSE_V1</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Cybersecurity</span>
+                <h3 class="project-title">Cyber Threat Simulation &amp; Vulnerability Audit</h3>
+                <p class="project-desc">
+                  Modular defensive framework designed to audit host security configurations, simulate endpoint vector attacks, and benchmark against OWASP compliance guidelines.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">OWASP Top 10</span>
+                  <span class="tech-tag">Vulnerability Audit</span>
+                  <span class="tech-tag">Linux Security</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Network Security -->
+          <div class="card project-card card-cyber reveal" data-category="network-security">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">NET_TRAFFIC_MONITOR</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Network Security</span>
+                <h3 class="project-title">Packet Analysis &amp; Traffic Monitoring Engine</h3>
+                <p class="project-desc">
+                  Socket-level inspection architecture monitoring packet flow across interfaces, identifying anomalous port probes, and logging suspicious IP telemetry.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">TCP/IP Protocol</span>
+                  <span class="tech-tag">Socket API</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Python & AI -->
+          <div class="card project-card card-cyber reveal" data-category="python-ai">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a4 4 0 0 1 4 4c0 .73-.2 1.41-.54 2H18a4 4 0 0 1 4 4c0 1.2-.53 2.27-1.37 3A4 4 0 0 1 21 18a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4 4 4 0 0 1-4 4H5a4 4 0 0 1-4-4 4 4 0 0 1 .37-3A4 4 0 0 1 0 12a4 4 0 0 1 4-4h2.54A4 4 0 0 1 6 6a4 4 0 0 1 4-4h2z"></path>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">AI_PATTERN_ANALYZER</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Python &amp; AI</span>
+                <h3 class="project-title">Intelligent Threat Pattern Classification</h3>
+                <p class="project-desc">
+                  Machine learning model for analyzing server access logs, detecting brute-force authorization attempts, and classifying behavioral anomalies using Python data stacks.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Scikit-Learn</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">NumPy</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Data Analytics -->
+          <div class="card project-card card-cyber reveal" data-category="data-analytics">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">KPI_ANALYTICS_DASH</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Data Analytics</span>
+                <h3 class="project-title">Security Telemetry &amp; KPI Analytics Dashboard</h3>
+                <p class="project-desc">
+                  Data-driven dashboard translating raw system incident records into executive-level KPIs, vulnerability trends, and intuitive interactive visualization charts.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">Business Intelligence</span>
+                  <span class="tech-tag">Python Analytics</span>
+                  <span class="tech-tag">SQL</span>
+                  <span class="tech-tag">Power BI</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Web Development -->
+          <div class="card project-card card-cyber reveal" data-category="web-development">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">SECURE_WEB_PORTAL</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Web Development</span>
+                <h3 class="project-title">Hardened Web Architecture &amp; Futuristic UI</h3>
+                <p class="project-desc">
+                  Ultra-fast, accessible client portal implementing strict Content Security Policy guidelines, responsive glassmorphic aesthetic system, and zero-dependency vanilla engineering.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Vanilla JavaScript</span>
+                  <span class="tech-tag">Web Defense</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Cloud Computing -->
+          <div class="card project-card card-cyber reveal" data-category="cloud-computing">
+            <div class="project-thumb-container">
+              <div class="project-thumb-placeholder">
+                <svg class="project-thumb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+                <span class="font-mono" style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--color-electric-purple);">CLOUD_CONTAINER_SANDBOX</span>
+              </div>
+            </div>
+            <div class="project-card-body">
+              <div>
+                <span class="project-category-badge">Cloud Computing</span>
+                <h3 class="project-title">Cloud Infrastructure &amp; Container Security Sandbox</h3>
+                <p class="project-desc">
+                  Virtualized testbed analyzing least-privilege IAM policy controls, boundary segmentation, and automated container health security audits in cloud environments.
+                </p>
+              </div>
+              <div>
+                <div class="project-tech-list">
+                  <span class="tech-tag">Cloud Security</span>
+                  <span class="tech-tag">IAM Policies</span>
+                  <span class="tech-tag">Linux / Bash</span>
+                  <span class="tech-tag">Zero Trust</span>
+                </div>
+                <div class="project-card-footer">
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="#contact" class="btn btn-secondary btn-sm">
+                    <span>Live Demo</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ------------------------------------------------------------------
+         CONTACT SECTION
+         ------------------------------------------------------------------ -->
+    <section class="section" id="contact" style="background: rgba(11, 21, 53, 0.3);">
+      <div class="container">
+        
+        <div class="reveal" style="margin-bottom: var(--space-xl);">
+          <span class="badge" style="margin-bottom: var(--space-xs);"><span class="badge-dot"></span> DIRECT TRANSMISSION GATEWAY</span>
+          <h2>Let's Build Something Amazing Together.</h2>
+          <p>
+            Open to cybersecurity internships, technology research collaborations, and professional networking. Reach out directly or dispatch a transmission below:
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <!-- Left Column: Direct Contact Info -->
+          <div class="contact-info-card reveal">
+            <span class="badge" style="margin-bottom: var(--space-md);"><span class="badge-dot"></span> COMMUNICATIONS HUB</span>
+            <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-xs);">Laiba Rafiq</h3>
+            <p style="color: var(--color-text-muted); font-size: var(--text-sm); line-height: 1.6;">
+              Information Technology Student &amp; Cybersecurity Enthusiast passionate about securing digital infrastructures, analyzing attack surfaces, and engineering resilient systems.
+            </p>
+
+            <div class="contact-detail-list">
+              <!-- Location -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Location</div>
+                  <div class="contact-detail-value">Islamabad, Pakistan</div>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Email Address</div>
+                  <a href="mailto:laibarafiq845@gmail.com" class="contact-detail-value">laibarafiq845@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- GitHub Profile -->
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-detail-label">GitHub Profile</div>
+                  <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="contact-detail-value">@laibarafiq845-droid</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Icon Cluster -->
+            <div style="display: flex; gap: var(--space-sm); align-items: center; margin-top: var(--space-lg);">
+              <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="social-icon-btn" title="GitHub Profile">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="mailto:laibarafiq845@gmail.com" class="social-icon-btn" title="Send Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-card reveal">
+            <span class="badge" style="margin-bottom: var(--space-md);"><span class="badge-dot"></span> ENCRYPTED TRANSMISSION</span>
+            <h3 style="font-size: var(--text-2xl); margin-bottom: var(--space-xs);">Send a Message</h3>
+            <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-bottom: var(--space-lg);">
+              Fill in your details below. Validations, honeypot defense, and EmailJS transmission handling are active.
+            </p>
+
+            <form id="contactForm" novalidate>
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="from_name" class="form-label">Full Name <span class="req">*</span></label>
+                <input type="text" id="from_name" name="from_name" class="form-control" required placeholder="e.g. Jane Doe" autocomplete="name">
+                <div class="form-feedback">Please enter your full name.</div>
+              </div>
+
+              <!-- Email Address -->
+              <div class="form-group">
+                <label for="from_email" class="form-label">Email Address <span class="req">*</span></label>
+                <input type="email" id="from_email" name="from_email" class="form-control" required placeholder="e.g. jane@example.com" autocomplete="email">
+                <div class="form-feedback">Please enter a valid email address.</div>
+              </div>
+
+              <!-- Subject -->
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject <span class="req">*</span></label>
+                <input type="text" id="subject" name="subject" class="form-control" required placeholder="e.g. Cybersecurity Project Collaboration">
+                <div class="form-feedback">Please enter a subject.</div>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message <span class="req">*</span></label>
+                <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Write your transmission details here..."></textarea>
+                <div class="form-feedback">Please enter your message (minimum 10 characters).</div>
+              </div>
+
+              <!-- Live Status Notification Container -->
+              <div id="formStatus" class="form-status" role="status" aria-live="polite"></div>
+
+              <!-- Submit Button -->
+              <button type="submit" id="submitBtn" class="btn btn-primary btn-lg" style="width: 100%;">
+                <span class="btn-text">Send Message</span>
+                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                <span class="btn-spinner" style="display: none;" aria-hidden="true"></span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       PHASE 6: PREMIUM FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">
+            <span class="logo-monogram" style="width: 32px; height: 32px; font-size: 0.85rem;">LR</span>
+            <span>Laiba Rafiq</span>
+          </div>
+          <div class="footer-brand-sub">Information Technology Student &bull; Cybersecurity Enthusiast</div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home" class="footer-nav-link">Home</a>
+          <a href="#about" class="footer-nav-link">About</a>
+          <a href="#education" class="footer-nav-link">Education</a>
+          <a href="#skills" class="footer-nav-link">Skills</a>
+          <a href="#certificates" class="footer-nav-link">Certificates</a>
+          <a href="#projects" class="footer-nav-link">Projects</a>
+          <a href="#contact" class="footer-nav-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 <strong>Laiba Rafiq</strong>. All rights reserved. &bull; Islamabad, Pakistan.
+          <br>
+          <span style="color: var(--color-electric-purple); font-family: var(--font-mono); font-size: 0.72rem;">STATIC CYBER ARCHITECTURE &bull; ZERO BACKEND DEPENDENCY</span>
+        </div>
+
+        <div class="footer-actions">
+          <a href="https://github.com/laibarafiq845-droid" target="_blank" rel="noopener" class="social-icon-btn" title="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="mailto:laibarafiq845@gmail.com" class="social-icon-btn" title="Email Laiba">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+          <a href="#home" class="btn btn-outline btn-sm back-to-top-btn" aria-label="Back to Top" title="Back to Top">
+            <span>Back to Top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       PHASE 5: CERTIFICATE PREVIEW MODAL
+       ====================================================================== -->
+  <div id="certificateModal" class="cert-modal" role="dialog" aria-modal="true" aria-labelledby="modalCertTitle" hidden>
+    <div class="cert-modal-backdrop" id="certModalBackdrop"></div>
+    <div class="cert-modal-dialog">
+      <button class="cert-modal-close" id="certModalClose" aria-label="Close certificate preview">&times;</button>
+      
+      <div class="cert-modal-media">
+        <img id="modalCertImg" src="" alt="Certificate Document Preview" class="cert-modal-img">
+        <div id="modalPdfViewer" class="cert-modal-pdf" style="display: none;">
+          <iframe id="modalPdfFrame" src="" title="Certificate PDF Viewer"></iframe>
+          <a id="modalPdfLink" href="" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            <span>Open Full PDF in New Tab</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="cert-modal-info">
+        <div class="cert-modal-details">
+          <div style="display: flex; gap: var(--space-xs); align-items: center; margin-bottom: 6px; flex-wrap: wrap;">
+            <span class="badge" id="modalCertIssuer" style="font-size: 0.6875rem;">Issuer</span>
+            <span class="font-mono" id="modalCertDate" style="font-size: 0.75rem; color: var(--color-electric-purple);">Date</span>
+          </div>
+          <h3 id="modalCertTitle" style="font-size: var(--text-xl); margin-bottom: 4px;">Certificate Title</h3>
+          <div class="font-mono" id="modalCertMeta" style="font-size: var(--text-xs); color: var(--color-text-muted);"></div>
+        </div>
+
+        <div class="cert-modal-nav">
+          <button class="btn btn-icon" id="modalPrevBtn" aria-label="Previous Certificate" title="Previous (Arrow Left)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+          <span class="font-mono text-xs" id="modalCounter" style="color: var(--color-text-primary); min-width: 48px; text-align: center;">1 / 5</span>
+          <button class="btn btn-icon" id="modalNextBtn" aria-label="Next Certificate" title="Next (Arrow Right)">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+          <a id="modalOpenExternal" href="" target="_blank" rel="noopener" class="btn btn-outline btn-sm" style="margin-left: 6px;">
+            <span>Original File</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Cyber Toast Notification Component -->
+  <div id="cyberToast" class="cyber-toast" role="alert" aria-live="polite">
+    <div class="toast-indicator"></div>
+    <div class="toast-body">
+      <div class="toast-title font-mono" id="toastTitle">NOTIFICATION</div>
+      <div class="toast-message" id="toastMessage">Message content</div>
+    </div>
+  </div>
+
+  <!-- Embedded Interactive Engines (Failsafe & Self-Contained) -->
+  <script>
+/**
+ * LAIBA RAFIQ PORTFOLIO — ADVANCED MOTION & ANIMATIONS ENGINE (PHASE 7)
+ * Loading Screen, Custom Cursor, Magnetic Buttons, 3D Card Tilt, Constellation Network,
+ * Staggered Scroll Reveals, Timeline Laser & Performance Optimization
+ * Strict Color Enforcement: Dark Blue, Midnight Navy & Electric Purple
+ */
+
+(function () {
+  'use strict';
+
+  // Feature detection
+  const isTouchDevice = () => window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+  const prefersReducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initLoadingScreen();
+    initScrollReveal();
+    initTypewriter();
+    initInteractiveNetwork();
+
+    // Activate advanced mouse physics only on pointer devices and when motion is permitted
+    if (!isTouchDevice() && !prefersReducedMotion()) {
+      initCustomCursor();
+      initMagneticButtons();
+      initCard3DTilt();
+      initParallax();
+    }
+  });
+
+  /* ==========================================================================
+     1. FUTURISTIC LOADING SCREEN
+     ========================================================================== */
+  function initLoadingScreen() {
+    const loader = document.getElementById('siteLoader');
+    if (!loader) return;
+
+    if (prefersReducedMotion()) {
+      loader.classList.add('is-loaded');
+      loader.hidden = true;
+      return;
+    }
+
+    const bar = document.getElementById('loaderProgressBar');
+    if (bar) {
+      setTimeout(() => { bar.style.width = '45%'; }, 100);
+      setTimeout(() => { bar.style.width = '85%'; }, 350);
+      setTimeout(() => { bar.style.width = '100%'; }, 550);
+    }
+
+    function dismissLoader() {
+      if (loader.classList.contains('is-loaded')) return;
+      loader.classList.add('is-loaded');
+      setTimeout(() => {
+        loader.hidden = true;
+      }, 500);
+    }
+
+    const timer = setTimeout(dismissLoader, 700);
+
+    window.addEventListener('load', () => {
+      setTimeout(dismissLoader, 350);
+    });
+  }
+
+  /* ==========================================================================
+     1. CUSTOM CYBER CURSOR (Small Dot + Outer Ring + Smooth Lerp)
+     ========================================================================== */
+  function initCustomCursor() {
+    const dot = document.createElement('div');
+    const ring = document.createElement('div');
+    dot.className = 'cursor-dot';
+    ring.className = 'cursor-ring';
+    document.body.appendChild(dot);
+    document.body.appendChild(ring);
+
+    let mouseX = -100, mouseY = -100;
+    let ringX = -100, ringY = -100;
+    let isHovering = false;
+    let isMouseDown = false;
+
+    // Follow cursor instantly for core dot
+    window.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      dot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
+    }, { passive: true });
+
+    // Smooth Lerp loop for kinetic outer ring
+    function renderCursor() {
+      ringX += (mouseX - ringX) * 0.18;
+      ringY += (mouseY - ringY) * 0.18;
+
+      let scale = isHovering ? 1.45 : (isMouseDown ? 0.85 : 1);
+      ring.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) scale(${scale})`;
+
+      requestAnimationFrame(renderCursor);
+    }
+    requestAnimationFrame(renderCursor);
+
+    // Mouse click feedback
+    window.addEventListener('mousedown', () => {
+      isMouseDown = true;
+      ring.classList.add('is-down');
+    });
+
+    window.addEventListener('mouseup', () => {
+      isMouseDown = false;
+      ring.classList.remove('is-down');
+    });
+
+    // Detect clickable and interactive elements for cursor expansion
+    const interactiveSelectors = 'a, button, input, textarea, select, .card, .btn, .btn-icon, .social-icon-btn, .nav-toggle, [data-magnetic]';
+    
+    document.addEventListener('mouseover', (e) => {
+      if (e.target.closest(interactiveSelectors)) {
+        isHovering = true;
+        ring.classList.add('is-hover');
+        dot.classList.add('is-hover');
+      }
+    });
+
+    document.addEventListener('mouseout', (e) => {
+      if (e.target.closest(interactiveSelectors)) {
+        isHovering = false;
+        ring.classList.remove('is-hover');
+        dot.classList.remove('is-hover');
+      }
+    });
+
+    // Viewport enter/leave visibility
+    document.addEventListener('mouseleave', () => {
+      dot.style.opacity = '0';
+      ring.style.opacity = '0';
+    });
+
+    document.addEventListener('mouseenter', () => {
+      dot.style.opacity = '1';
+      ring.style.opacity = '1';
+    });
+  }
+
+  /* ==========================================================================
+     2. MAGNETIC BUTTONS (Smooth Pull Toward Cursor)
+     ========================================================================== */
+  function initMagneticButtons() {
+    const magneticElements = document.querySelectorAll('.btn, .btn-icon, .social-icon-btn, .nav-toggle, .brand-logo, [data-magnetic]');
+
+    magneticElements.forEach((el) => {
+      let rafId = null;
+
+      el.addEventListener('mousemove', (e) => {
+        const rect = el.getBoundingClientRect();
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
+        
+        // Calculate offset from center (-1 to 1)
+        const deltaX = (e.clientX - centerX) * 0.32;
+        const deltaY = (e.clientY - centerY) * 0.32;
+
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = requestAnimationFrame(() => {
+          el.style.transform = `translate3d(${deltaX}px, ${deltaY}px, 0)`;
+        });
+      });
+
+      el.addEventListener('mouseleave', () => {
+        if (rafId) cancelAnimationFrame(rafId);
+        el.style.transform = 'translate3d(0, 0, 0)';
+        el.style.transition = 'transform 450ms cubic-bezier(0.16, 1, 0.3, 1)';
+        setTimeout(() => {
+          el.style.transition = '';
+        }, 450);
+      });
+    });
+  }
+
+  /* ==========================================================================
+     3. 3D PERSPECTIVE CARD TILT & SURFACE SHEEN
+     ========================================================================== */
+  function initCard3DTilt(container) {
+    const root = container || document;
+    const cards = root.querySelectorAll ? root.querySelectorAll('.card, .card-cyber') : [];
+
+    cards.forEach((card) => {
+      if (card.dataset.tiltBound) return;
+      card.dataset.tiltBound = 'true';
+      let isInside = false;
+
+      card.addEventListener('mouseenter', () => {
+        isInside = true;
+        card.style.transition = 'transform 100ms ease, box-shadow 150ms ease';
+      });
+
+      card.addEventListener('mousemove', (e) => {
+        if (!isInside) return;
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = ((y - centerY) / centerY) * -6; // Max 6 deg tilt
+        const rotateY = ((x - centerX) / centerX) * 6;
+
+        // Dynamic light sheen coordinates
+        card.style.setProperty('--sheen-x', `${(x / rect.width) * 100}%`);
+        card.style.setProperty('--sheen-y', `${(y / rect.height) * 100}%`);
+
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-4px)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        isInside = false;
+        card.style.transition = 'transform 500ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 500ms ease';
+        card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0)';
+      });
+    });
+  }
+
+  window.PortfolioAnimations = {
+    bindCardTilt: initCard3DTilt
+  };
+
+  /* ==========================================================================
+     4. INTERACTIVE NETWORK BACKGROUND (Connected Nodes & Mouse Attraction)
+     ========================================================================== */
+  function initInteractiveNetwork() {
+    const canvas = document.getElementById('heroNetworkCanvas');
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    let width, height;
+    let particles = [];
+    const mouse = { x: null, y: null, radius: 140 };
+    let isVisible = true;
+
+    // Pause physics if tab is hidden
+    document.addEventListener('visibilitychange', () => {
+      isVisible = !document.hidden;
+    });
+
+    function resize() {
+      if (!canvas.parentElement) return;
+      width = canvas.width = canvas.parentElement.offsetWidth;
+      height = canvas.height = canvas.parentElement.offsetHeight;
+      createParticles();
+    }
+
+    window.addEventListener('resize', resize, { passive: true });
+
+    window.addEventListener('mousemove', (e) => {
+      const rect = canvas.getBoundingClientRect();
+      mouse.x = e.clientX - rect.left;
+      mouse.y = e.clientY - rect.top;
+    }, { passive: true });
+
+    window.addEventListener('mouseleave', () => {
+      mouse.x = null;
+      mouse.y = null;
+    });
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * width;
+        this.y = Math.random() * height;
+        this.baseVx = (Math.random() - 0.5) * 0.6;
+        this.baseVy = (Math.random() - 0.5) * 0.6;
+        this.vx = this.baseVx;
+        this.vy = this.baseVy;
+        this.radius = Math.random() * 2 + 1.2;
+        this.color = '#5935A6'; // Electric purple node
+      }
+
+      update() {
+        // Gravitational attraction toward mouse
+        if (mouse.x !== null && mouse.y !== null) {
+          const dx = mouse.x - this.x;
+          const dy = mouse.y - this.y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+
+          if (distance < mouse.radius) {
+            const pullForce = (mouse.radius - distance) / mouse.radius;
+            const angle = Math.atan2(dy, dx);
+            this.vx += Math.cos(angle) * pullForce * 0.12;
+            this.vy += Math.sin(angle) * pullForce * 0.12;
+          }
+        }
+
+        // Apply velocities with damping
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vx *= 0.98;
+        this.vy *= 0.98;
+
+        // Baseline motion
+        this.vx += this.baseVx * 0.05;
+        this.vy += this.baseVy * 0.05;
+
+        // Wrap around boundaries
+        if (this.x < 0) this.x = width;
+        if (this.x > width) this.x = 0;
+        if (this.y < 0) this.y = height;
+        if (this.y > height) this.y = 0;
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = this.color;
+        ctx.shadowColor = '#5935A6';
+        ctx.shadowBlur = 6;
+        ctx.fill();
+        ctx.shadowBlur = 0;
+      }
+    }
+
+    function createParticles() {
+      particles = [];
+      const density = width < 768 ? 32 : 80;
+      for (let i = 0; i < density; i++) {
+        particles.push(new Particle());
+      }
+    }
+
+    function drawConnections() {
+      const maxDist = 120;
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+
+          if (dist < maxDist) {
+            const opacity = (1 - dist / maxDist) * 0.35;
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(89, 53, 166, ${opacity})`;
+            ctx.lineWidth = 1;
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function loop() {
+      if (isVisible) {
+        ctx.clearRect(0, 0, width, height);
+        particles.forEach(p => {
+          p.update();
+          p.draw();
+        });
+        drawConnections();
+      }
+      requestAnimationFrame(loop);
+    }
+
+    resize();
+    loop();
+  }
+
+  /* ==========================================================================
+     6. ADVANCED SCROLL REVEALS, STAGGER & PROGRESSION
+     ========================================================================== */
+  function initScrollReveal() {
+    // 1. Assign staggered delays to child items in all grids
+    const staggerContainers = document.querySelectorAll(
+      '.certificates-grid, .projects-grid, .skills-matrix, .reveal-stagger'
+    );
+    staggerContainers.forEach(container => {
+      Array.from(container.children).forEach((child, index) => {
+        child.style.transitionDelay = `${(index % 6) * 90}ms`;
+      });
+    });
+
+    // 2. IntersectionObserver for general reveals
+    const elements = document.querySelectorAll('.reveal');
+    if (elements.length) {
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+
+            // Animate skill bars when visible
+            if (entry.target.classList.contains('skill-category-card') || entry.target.querySelector('.skill-bar-fill')) {
+              entry.target.querySelectorAll('.skill-bar-fill').forEach(fill => {
+                const pct = fill.getAttribute('data-pct') || '85%';
+                fill.style.width = pct;
+              });
+            }
+          }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+      elements.forEach(el => observer.observe(el));
+    }
+
+    // 3. Timeline progression laser line in Education section
+    const educationSec = document.getElementById('education');
+    if (educationSec) {
+      const laser = document.querySelector('.timeline-laser-line');
+      const timelineObserver = new IntersectionObserver(([entry]) => {
+        if (entry.isIntersecting && laser) {
+          laser.style.height = '100%';
+        }
+      }, { threshold: 0.2 });
+
+      timelineObserver.observe(educationSec);
+    }
+  }
+
+  /* ==========================================================================
+     7. DYNAMIC TYPEWRITER
+     ========================================================================== */
+  function initTypewriter() {
+    const target = document.getElementById('heroTypewriter');
+    if (!target) return;
+
+    const phrases = [
+      'Information Technology Student',
+      'Cybersecurity Enthusiast',
+      'Network Defense & Cloud Explorer',
+      'Data Analytics & Python Developer'
+    ];
+
+    let pIndex = 0, cIndex = 0, isDeleting = false;
+
+    function step() {
+      const current = phrases[pIndex];
+      target.textContent = current.substring(0, isDeleting ? cIndex - 1 : cIndex + 1);
+      cIndex = isDeleting ? cIndex - 1 : cIndex + 1;
+
+      let speed = isDeleting ? 35 : 80;
+
+      if (!isDeleting && cIndex === current.length) {
+        speed = 2200;
+        isDeleting = true;
+      } else if (isDeleting && cIndex === 0) {
+        isDeleting = false;
+        pIndex = (pIndex + 1) % phrases.length;
+        speed = 400;
+      }
+      setTimeout(step, speed);
+    }
+    step();
+  }
+
+  /* ==========================================================================
+     8. SUBTLE PARALLAX ON AMBIENT ORBS
+     ========================================================================== */
+  function initParallax() {
+    const orbs = document.querySelectorAll('.ambient-orb, [data-parallax]');
+    if (!orbs.length) return;
+
+    let ticking = false;
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const scrollY = window.pageYOffset;
+          orbs.forEach(orb => {
+            const speed = parseFloat(orb.getAttribute('data-parallax-speed')) || 0.15;
+            orb.style.transform = `translate3d(0, ${scrollY * speed}px, 0)`;
+          });
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  }
+
+  // Export globally for external scripts & dynamic card re-bindings
+  window.PortfolioAnimations = {
+    bindCardTilt: initCard3DTilt,
+    initLoadingScreen: initLoadingScreen,
+    initScrollReveal: initScrollReveal
+  };
+
+})();
+  </script>
+  <!-- Official EmailJS Browser SDK (Phase 6) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+/**
+ * LAIBA RAFIQ PORTFOLIO — CONTACT & EMAILJS ENGINE (PHASE 6)
+ * Official EmailJS Browser SDK Integration, RFC 5322 Validation & Defense
+ * Recipient: laibarafiq845@gmail.com
+ */
+(function () {
+  'use strict';
+
+  /* ==========================================================================
+     EMAILJS CONFIGURATION
+     Replace placeholder credentials with your real keys from emailjs.com
+     IMPORTANT: Only Public Key is used here. Never expose private/secret keys.
+     ========================================================================== */
+  const EMAILJS_CONFIG = {
+    publicKey: "vqbWEz6aCi2sFVAsp",
+    serviceID: "service_bsvth8j",
+    templateID: "template_523y16j"
+  };
+
+  const RECIPIENT_EMAIL = "laibarafiq845@gmail.com";
+
+  let isSubmitting = false;
+  let lastSubmitTime = 0;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initEmailJS();
+    initContactForm();
+  });
+
+  /**
+   * Initializes the EmailJS SDK if public key is configured
+   */
+  function initEmailJS() {
+    if (window.emailjs && isConfigured()) {
+      try {
+        window.emailjs.init({
+          publicKey: EMAILJS_CONFIG.publicKey
+        });
+        console.log('[SYSTEM] EmailJS SDK initialized successfully.');
+      } catch (err) {
+        console.warn('[SYSTEM] EmailJS initialization error:', err);
+      }
+    }
+  }
+
+  /**
+   * Checks if real credentials have replaced placeholder values
+   * @returns {boolean}
+   */
+  function isConfigured() {
+    return (
+      EMAILJS_CONFIG.publicKey !== "YOUR_PUBLIC_KEY" &&
+      EMAILJS_CONFIG.serviceID !== "YOUR_SERVICE_ID" &&
+      EMAILJS_CONFIG.templateID !== "YOUR_TEMPLATE_ID" &&
+      EMAILJS_CONFIG.publicKey.trim().length > 0 &&
+      EMAILJS_CONFIG.serviceID.trim().length > 0 &&
+      EMAILJS_CONFIG.templateID.trim().length > 0
+    );
+  }
+
+  /**
+   * RFC 5322 compliant regex email validator
+   */
+  function isValidEmail(email) {
+    const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/;
+    return regex.test(String(email).toLowerCase().trim());
+  }
+
+  /**
+   * Sanitizes string against XSS injection
+   */
+  function sanitize(str) {
+    if (typeof str !== 'string') return '';
+    const temp = document.createElement('div');
+    temp.textContent = str;
+    return temp.innerHTML;
+  }
+
+  /**
+   * Binds validation and submit handlers to the contact form
+   */
+  function initContactForm() {
+    const form = document.getElementById('contactForm');
+    if (!form) return;
+
+    // Real-time input clearing on user edit
+    const inputs = form.querySelectorAll('input, textarea');
+    inputs.forEach(input => {
+      input.addEventListener('input', () => {
+        if (input.classList.contains('is-invalid')) {
+          input.classList.remove('is-invalid');
+          input.removeAttribute('aria-invalid');
+        }
+      });
+    });
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      await handleFormSubmit(form);
+    });
+  }
+
+  /**
+   * Main submission pipeline with spam protection and feedback
+   */
+  async function handleFormSubmit(form) {
+    if (isSubmitting) return; // Prevent duplicate submission
+
+    const statusEl = document.getElementById('formStatus');
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = submitBtn ? submitBtn.querySelector('.btn-text') : null;
+    const btnIcon = submitBtn ? submitBtn.querySelector('.btn-icon') : null;
+    const btnSpinner = submitBtn ? submitBtn.querySelector('.btn-spinner') : null;
+
+    clearStatus(statusEl);
+
+    // 1. Spam defense: Client-side rate limiting (3 seconds cooldown)
+    const now = Date.now();
+    if (now - lastSubmitTime < 3000) {
+      showStatus(statusEl, 'error', 'Please wait a moment before sending another message.');
+      return;
+    }
+
+    // 3. Field validation
+    const nameInput = form.querySelector('[name="from_name"]');
+    const emailInput = form.querySelector('[name="from_email"]');
+    const subjectInput = form.querySelector('[name="subject"]');
+    const messageInput = form.querySelector('[name="message"]');
+
+    let hasError = false;
+
+    if (!nameInput || nameInput.value.trim().length < 2) {
+      setFieldError(nameInput, 'Please provide your full name (minimum 2 characters).');
+      hasError = true;
+    }
+
+    if (!emailInput || !isValidEmail(emailInput.value)) {
+      setFieldError(emailInput, 'Please enter a valid email address.');
+      hasError = true;
+    }
+
+    if (!subjectInput || subjectInput.value.trim().length < 3) {
+      setFieldError(subjectInput, 'Please enter a subject (minimum 3 characters).');
+      hasError = true;
+    }
+
+    if (!messageInput || messageInput.value.trim().length < 10) {
+      setFieldError(messageInput, 'Please enter your message (minimum 10 characters).');
+      hasError = true;
+    }
+
+    if (hasError) {
+      showStatus(statusEl, 'error', 'Please correct the highlighted errors before submitting.');
+      return;
+    }
+
+    // Set loading state
+    isSubmitting = true;
+    lastSubmitTime = now;
+    setLoadingState(true, submitBtn, btnText, btnIcon, btnSpinner);
+
+    const fromName = nameInput.value.trim();
+    const fromEmail = emailInput.value.trim();
+    const subject = subjectInput.value.trim();
+    const message = messageInput.value.trim();
+
+    // 4. Check if EmailJS is configured with real keys
+    if (!isConfigured()) {
+      // HONEST NOTICE: Do not claim EmailJS is operational when credentials are placeholders
+      console.warn('[SYSTEM] EmailJS credentials not yet configured. Providing direct mailto fallback.');
+      
+      setTimeout(() => {
+        setLoadingState(false, submitBtn, btnText, btnIcon, btnSpinner);
+        isSubmitting = false;
+
+        const mailtoUrl = `mailto:${RECIPIENT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(
+          `From: ${fromName} (${fromEmail})\n\nMessage:\n${message}`
+        )}`;
+
+        showStatus(
+          statusEl,
+          'info',
+          `Notice: EmailJS credentials are in setup mode in <code>js/email.js</code>. Launching your email client to transmit directly to <strong>${RECIPIENT_EMAIL}</strong>...`
+        );
+
+        if (window.showToast) {
+          window.showToast(
+            'TRANSMISSION FALLBACK',
+            `Opening direct email client to send to ${RECIPIENT_EMAIL}.`
+          );
+        }
+
+        // Open mailto client
+        window.location.href = mailtoUrl;
+      }, 700);
+
+      return;
+    }
+
+    // 5. Operational EmailJS transmission
+    try {
+      if (!window.emailjs) {
+        throw new Error('EmailJS SDK failed to load. Please verify your internet connection.');
+      }
+
+      // Ensure SDK is initialized with public key
+      window.emailjs.init({
+        publicKey: EMAILJS_CONFIG.publicKey
+      });
+
+      // Populate template compatibility alias inputs
+      const aliases = {
+        name: fromName,
+        email: fromEmail,
+        reply_to: fromEmail,
+        to_name: 'Laiba Rafiq'
+      };
+
+      for (const [key, val] of Object.entries(aliases)) {
+        let el = form.querySelector(`[name="${key}"]`);
+        if (!el) {
+          el = document.createElement('input');
+          el.type = 'hidden';
+          el.name = key;
+          form.appendChild(el);
+        }
+        el.value = val;
+      }
+
+      await window.emailjs.sendForm(
+        EMAILJS_CONFIG.serviceID,
+        EMAILJS_CONFIG.templateID,
+        form
+      );
+
+      // Success handling
+      form.reset();
+      showStatus(
+        statusEl,
+        'success',
+        'Your message has been successfully transmitted! Thank you, Laiba will respond shortly.'
+      );
+
+      if (window.showToast) {
+        window.showToast(
+          'TRANSMISSION CONFIRMED',
+          'Your message was delivered via secure gateway.'
+        );
+      }
+    } catch (error) {
+      console.error('[EMAILJS ERROR]', error);
+      const errMsg = error && error.text ? error.text : 'Network or transmission error.';
+      
+      showStatus(
+        statusEl,
+        'error',
+        `Transmission error (${sanitize(errMsg)}). You can reach out directly at <a href="mailto:${RECIPIENT_EMAIL}" style="color: #FFFFFF; text-decoration: underline;">${RECIPIENT_EMAIL}</a>.`
+      );
+
+      if (window.showToast) {
+        window.showToast(
+          'TRANSMISSION FAILED',
+          `Could not send via EmailJS. Please email ${RECIPIENT_EMAIL} directly.`
+        );
+      }
+    } finally {
+      setLoadingState(false, submitBtn, btnText, btnIcon, btnSpinner);
+      isSubmitting = false;
+    }
+  }
+
+  function setFieldError(input, message) {
+    if (!input) return;
+    input.classList.add('is-invalid');
+    input.setAttribute('aria-invalid', 'true');
+    const feedback = input.parentElement ? input.parentElement.querySelector('.form-feedback') : null;
+    if (feedback) {
+      feedback.textContent = message;
+    }
+  }
+
+  function setLoadingState(isLoading, btn, text, icon, spinner) {
+    if (!btn) return;
+    btn.disabled = isLoading;
+    if (isLoading) {
+      if (text) text.textContent = 'Transmitting...';
+      if (icon) icon.style.display = 'none';
+      if (spinner) spinner.style.display = 'inline-block';
+      btn.style.opacity = '0.8';
+      btn.style.cursor = 'not-allowed';
+    } else {
+      if (text) text.textContent = 'Send Message';
+      if (icon) icon.style.display = '';
+      if (spinner) spinner.style.display = 'none';
+      btn.style.opacity = '';
+      btn.style.cursor = '';
+    }
+  }
+
+  function showStatus(element, type, htmlMessage) {
+    if (!element) return;
+    element.className = `form-status is-${type}`;
+    element.innerHTML = htmlMessage;
+    element.style.display = 'block';
+  }
+
+  function clearStatus(element) {
+    if (!element) return;
+    element.className = 'form-status';
+    element.innerHTML = '';
+    element.style.display = 'none';
+  }
+
+  // Global exposure for debugging or external calls
+  window.PortfolioEmail = {
+    isConfigured,
+    config: EMAILJS_CONFIG,
+    recipient: RECIPIENT_EMAIL
+  };
+
+})();
+  </script>
+  <script>
+/**
+ * LAIBA RAFIQ PORTFOLIO — MAIN CONTROLLER (PHASE 2)
+ * Sticky Navigation, Active Scroll-Spy, Mobile Drawer & Resume Handler
+ */
+
+(function () {
+  'use strict';
+
+  console.log(
+    '%c[SYSTEM]%c Laiba Rafiq Futuristic Cybersecurity Portfolio Initialized.\n' +
+    'Color Palette Verified: Midnight Navy (#05091F) | Dark Blue (#0B1535) | Deep Purple (#21164D) | Electric Purple (#5935A6)',
+    'background: #5935A6; color: #FFFFFF; font-weight: bold; padding: 3px 6px; border-radius: 4px;',
+    'color: #AAB4D0; font-family: monospace;'
+  );
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initNavigation();
+    initScrollSpy();
+    initResumeModal();
+  });
+
+  /**
+   * Sticky Navbar, Hamburger Drawer & Smooth Anchor Scrolling
+   */
+  function initNavigation() {
+    const navbar = document.getElementById('navbar');
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    // Sticky shadow on scroll
+    if (navbar) {
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      }, { passive: true });
+    }
+
+    // Mobile Hamburger Menu Toggle
+    if (navToggle && navMenu) {
+      navToggle.addEventListener('click', () => {
+        const isOpen = navMenu.classList.toggle('is-active');
+        navToggle.classList.toggle('is-open', isOpen);
+        navToggle.setAttribute('aria-expanded', isOpen.toString());
+      });
+
+      // Close menu when clicking any nav link
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('is-active');
+          navToggle.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (navMenu.classList.contains('is-active') && !navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+          navMenu.classList.remove('is-active');
+          navToggle.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      // Escape key closes mobile navigation
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && navMenu.classList.contains('is-active')) {
+          navMenu.classList.remove('is-active');
+          navToggle.classList.remove('is-open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          navToggle.focus();
+        }
+      });
+    }
+
+    // Smooth Scroll with sticky header offset
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const targetId = this.getAttribute('href');
+        if (targetId === '#' || targetId === '') return;
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          e.preventDefault();
+          const navOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({
+            top: elementPosition - navOffset,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  }
+
+  /**
+   * Active Section Highlighting using IntersectionObserver (Scroll-Spy)
+   */
+  function initScrollSpy() {
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    if (!sections.length || !navLinks.length) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const currentId = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            const href = link.getAttribute('href');
+            if (href === `#${currentId}`) {
+              link.classList.add('active');
+            } else {
+              link.classList.remove('active');
+            }
+          });
+        }
+      });
+    }, {
+      root: null,
+      threshold: 0.35,
+      rootMargin: '-80px 0px -40% 0px'
+    });
+
+    sections.forEach(section => observer.observe(section));
+  }
+
+  /**
+   * Download Resume Handler
+   * Does NOT generate a fake file. Triggers a sleek cyber toast notification
+   * informing the visitor that official credentials/resume are provided upon direct contact.
+   */
+  function initResumeModal() {
+    const resumeBtn = document.getElementById('btnResumeRequest');
+    if (!resumeBtn) return;
+
+    resumeBtn.addEventListener('click', () => {
+      showCyberToast('CREDENTIAL ACCESS', 'Direct resume verification available on request. Connecting to contact gateway...');
+      setTimeout(() => {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 1400);
+    });
+  }
+
+  /**
+   * Cyber Toast Notification Utility
+   */
+  window.showCyberToast = function (title, message) {
+    const toast = document.getElementById('cyberToast');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastMsg = document.getElementById('toastMessage');
+
+    if (!toast || !toastTitle || !toastMsg) return;
+
+    toastTitle.textContent = title;
+    toastMsg.textContent = message;
+    toast.classList.add('is-active');
+
+    setTimeout(() => {
+      toast.classList.remove('is-active');
+    }, 4500);
+  };
+
+})();
+  </script>
+  <script>
+/**
+ * LAIBA RAFIQ PORTFOLIO — CERTIFICATES & ACHIEVEMENTS ENGINE (PHASE 5)
+ * Centralized Certificate Data Management & Interactive Modal Viewer
+ */
+
+(function () {
+  'use strict';
+
+  /* ==========================================================================
+     CENTRALIZED CERTIFICATE DATA REPOSITORY
+     Strictly verified from official credentials (No invented data)
+     ========================================================================== */
+  const certificates = [
+    {
+      id: "cisco-ccna-intro-networks",
+      title: "CCNA: Introduction to Networks",
+      issuer: "Cisco Networking Academy / Virtual University",
+      date: "30 Jun 2026",
+      credentialId: "Cert ID: ab597dd7-1fda-4a96-ad3e-fad762528ff8",
+      instructor: "Muhammad Faisal Saleem, Instructor (VU Peshawar)",
+      image: "assets/certificates/cisco-ccna-intro-networks.jpg",
+      file: "assets/certificates/cisco-ccna-intro-networks.pdf",
+      category: "Network Defense & Routing"
+    },
+    {
+      id: "digiskills-ai-python",
+      title: "Artificial Intelligence Using Python",
+      issuer: "DigiSkills.pk / Ministry of IT & Telecom / VU",
+      date: "20 Jul 2026",
+      credentialId: "ID: YZFVKYCMK • Batch 03 (Apr-Jul 2026)",
+      instructor: "Rector VU & CEO Ignite",
+      image: "assets/certificates/digiskills-ai-python.jpg",
+      file: "assets/certificates/digiskills-ai-python.pdf",
+      category: "AI & Security Automation"
+    },
+    {
+      id: "digiskills-data-analytics",
+      title: "Data Analytics and Business Intelligence",
+      issuer: "DigiSkills.pk / Ministry of IT & Telecom / VU",
+      date: "20 Jul 2026",
+      credentialId: "ID: 4D6BCSBMK • Batch 03 (Apr-Jul 2026)",
+      instructor: "Rector VU & CEO Ignite",
+      image: "assets/certificates/digiskills-data-analytics.jpg",
+      file: "assets/certificates/digiskills-data-analytics.pdf",
+      category: "Data Analytics & Telemetry"
+    },
+    {
+      id: "digiskills-wordpress",
+      title: "WordPress",
+      issuer: "DigiSkills.pk / Ministry of IT & Telecom / VU",
+      date: "14 Mar 2026",
+      credentialId: "ID: J3PYYRUMK • Batch 02 (Dec 2025-Mar 2026)",
+      instructor: "Rector VU & CEO Ignite",
+      image: "assets/certificates/digiskills-wordpress.jpg",
+      file: "assets/certificates/digiskills-wordpress.pdf",
+      category: "Web Systems & CMS Hardening"
+    },
+    {
+      id: "digiskills-freelancing",
+      title: "Freelancing",
+      issuer: "DigiSkills.pk / Ministry of IT & Telecom / VU",
+      date: "14 Mar 2026",
+      credentialId: "ID: C3NA4VKMK • Batch 02 (Dec 2025-Mar 2026)",
+      instructor: "Rector VU & CEO Ignite",
+      image: "assets/certificates/digiskills-freelancing.jpg",
+      file: "assets/certificates/digiskills-freelancing.pdf",
+      category: "Professional Practice & Operations"
+    }
+  ];
+
+  window.PortfolioCertificates = certificates;
+
+  let currentIndex = 0;
+  let lastFocusedElement = null;
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initCertificateGallery();
+    initModalControls();
+  });
+
+  /**
+   * Helper function to escape HTML entities for security
+   */
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#039;');
+  }
+
+  /**
+   * Binds click and keyboard events to certificate cards and view buttons
+   */
+  function initCertificateGallery() {
+    const grid = document.getElementById('certificatesGrid');
+    if (!grid) return;
+
+    // Attach listeners to all view buttons
+    grid.querySelectorAll('.btn-view-cert').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const idx = parseInt(btn.getAttribute('data-index'), 10);
+        openModal(idx);
+      });
+    });
+
+    // Also clicking anywhere on the card opens modal
+    grid.querySelectorAll('.cert-card').forEach(card => {
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('role', 'button');
+      card.addEventListener('click', () => {
+        const idx = parseInt(card.getAttribute('data-index'), 10);
+        openModal(idx);
+      });
+      card.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          const idx = parseInt(card.getAttribute('data-index'), 10);
+          openModal(idx);
+        }
+      });
+    });
+  }
+
+  /**
+   * Initializes Modal Controls (Keyboard, Next, Prev, Close, Click-outside)
+   */
+  function initModalControls() {
+    const modal = document.getElementById('certificateModal');
+    const backdrop = document.getElementById('certModalBackdrop');
+    const closeBtn = document.getElementById('certModalClose');
+    const nextBtn = document.getElementById('modalNextBtn');
+    const prevBtn = document.getElementById('modalPrevBtn');
+
+    if (!modal) return;
+
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (backdrop) backdrop.addEventListener('click', closeModal);
+
+    if (nextBtn) nextBtn.addEventListener('click', () => navigateModal(1));
+    if (prevBtn) prevBtn.addEventListener('click', () => navigateModal(-1));
+
+    window.addEventListener('keydown', (e) => {
+      if (!modal.classList.contains('is-active')) return;
+
+      if (e.key === 'Escape') {
+        closeModal();
+      } else if (e.key === 'ArrowRight') {
+        navigateModal(1);
+      } else if (e.key === 'ArrowLeft') {
+        navigateModal(-1);
+      }
+    });
+  }
+
+  /**
+   * Opens the certificate preview modal
+   */
+  function openModal(index) {
+    const modal = document.getElementById('certificateModal');
+    if (!modal) return;
+
+    lastFocusedElement = document.activeElement;
+    currentIndex = index;
+    updateModalContent();
+
+    modal.hidden = false;
+    void modal.offsetWidth; // Trigger reflow for smooth animation
+    modal.classList.add('is-active');
+    document.body.style.overflow = 'hidden';
+
+    // Focus close button for keyboard accessibility
+    const closeBtn = document.getElementById('certModalClose');
+    if (closeBtn) {
+      setTimeout(() => closeBtn.focus(), 50);
+    }
+  }
+
+  /**
+   * Closes the certificate preview modal
+   */
+  function closeModal() {
+    const modal = document.getElementById('certificateModal');
+    if (!modal) return;
+
+    modal.classList.remove('is-active');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+      modal.hidden = true;
+      if (lastFocusedElement && typeof lastFocusedElement.focus === 'function') {
+        lastFocusedElement.focus();
+      }
+    }, 250);
+  }
+
+  /**
+   * Navigates forward or backward in modal
+   */
+  function navigateModal(direction) {
+    currentIndex = (currentIndex + direction + certificates.length) % certificates.length;
+    updateModalContent();
+  }
+
+  /**
+   * Updates modal content with current certificate data
+   */
+  function updateModalContent() {
+    const cert = certificates[currentIndex];
+    if (!cert) return;
+
+    const img = document.getElementById('modalCertImg');
+    const pdfViewer = document.getElementById('modalPdfViewer');
+    const pdfFrame = document.getElementById('modalPdfFrame');
+    const pdfLink = document.getElementById('modalPdfLink');
+    const titleEl = document.getElementById('modalCertTitle');
+    const issuerEl = document.getElementById('modalCertIssuer');
+    const dateEl = document.getElementById('modalCertDate');
+    const metaEl = document.getElementById('modalCertMeta');
+    const counterEl = document.getElementById('modalCounter');
+    const externalLink = document.getElementById('modalOpenExternal');
+
+    if (titleEl) titleEl.textContent = cert.title;
+    if (issuerEl) issuerEl.textContent = cert.issuer;
+    if (dateEl) dateEl.textContent = cert.date ? `ISSUED: ${cert.date}` : '';
+    if (metaEl) {
+      metaEl.textContent = [cert.credentialId, cert.instructor].filter(Boolean).join(' • ');
+    }
+    if (counterEl) {
+      counterEl.textContent = `${currentIndex + 1} / ${certificates.length}`;
+    }
+
+    // Determine file type
+    const filePath = (cert.file || cert.image || '').toLowerCase();
+    const isPdf = filePath.endsWith('.pdf');
+
+    // Always display high-resolution crisp image preview
+    if (img) {
+      img.style.display = 'block';
+      img.src = cert.image;
+      img.alt = `${cert.title} Certificate Document`;
+    }
+
+    if (pdfViewer) {
+      pdfViewer.style.display = 'none';
+      if (pdfFrame) pdfFrame.src = '';
+      if (pdfLink) pdfLink.href = cert.file;
+    }
+
+    if (externalLink) {
+      externalLink.href = cert.file || cert.image;
+      const isPdf = (cert.file || '').toLowerCase().endsWith('.pdf');
+      const linkSpan = externalLink.querySelector('span');
+      if (linkSpan) {
+        linkSpan.textContent = isPdf ? 'Open Full PDF' : 'Original File';
+      }
+    }
+  }
+
+  /**
+   * Dynamic addition of certificates with instant UI refresh
+   */
+  window.addCertificate = function (newCert) {
+    if (!newCert || !newCert.title) return;
+    certificates.push(newCert);
+
+    const grid = document.getElementById('certificatesGrid');
+    if (!grid) return;
+
+    const newIdx = certificates.length - 1;
+    const isPdf = (newCert.file || '').toLowerCase().endsWith('.pdf');
+    const badgeText = isPdf ? 'PDF DOCUMENT' : 'IMAGE VERIFIED';
+    const metaInfo = [newCert.credentialId, newCert.instructor].filter(Boolean).join(' • ');
+
+    const card = document.createElement('div');
+    card.className = 'card cert-card card-cyber reveal is-visible';
+    card.setAttribute('data-index', newIdx);
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('role', 'button');
+    card.setAttribute('aria-label', `View ${newCert.title} certificate`);
+
+    card.innerHTML = `
+      <div class="cert-thumb-container">
+        <img src="${escapeHtml(newCert.image || newCert.file)}" alt="${escapeHtml(newCert.title)} Certificate" class="cert-thumb-img" loading="lazy">
+      </div>
+      <div class="cert-card-body">
+        <div>
+          <div class="cert-card-meta">
+            <span class="cert-issuer">${escapeHtml(newCert.issuer || '')}</span>
+            <span class="cert-date">${escapeHtml(newCert.date || '')}</span>
+          </div>
+          <h3 class="cert-title">${escapeHtml(newCert.title)}</h3>
+          ${metaInfo ? `<div class="cert-id-tag">${escapeHtml(metaInfo)}</div>` : ''}
+        </div>
+        <div class="cert-card-footer">
+          <span class="badge" style="font-size: 0.65rem; padding: 4px 10px;">${badgeText}</span>
+          <button class="btn btn-outline btn-sm btn-view-cert" data-index="${newIdx}" aria-label="View ${escapeHtml(newCert.title)} certificate">
+            <span>View Certificate</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </button>
+        </div>
+      </div>
+    `;
+
+    grid.appendChild(card);
+
+    // Bind events
+    card.addEventListener('click', () => openModal(newIdx));
+    card.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        openModal(newIdx);
+      }
+    });
+
+    const btn = card.querySelector('.btn-view-cert');
+    if (btn) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openModal(newIdx);
+      });
+    }
+
+    if (window.PortfolioAnimations && typeof window.PortfolioAnimations.bindCardTilt === 'function') {
+      window.PortfolioAnimations.bindCardTilt(card.parentElement);
+    }
+  };
+
+  // Export modal triggers for external callers
+  window.openCertificateModal = openModal;
+  window.closeCertificateModal = closeModal;
+
+})();
+  </script>
+
+</body>
+</html>
